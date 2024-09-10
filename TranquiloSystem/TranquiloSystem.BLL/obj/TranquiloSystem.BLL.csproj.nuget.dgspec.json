@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vs tasks\\TranquiloSystem\\TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj": {}
+    "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj": {}
   },
   "projects": {
-    "D:\\vs tasks\\TranquiloSystem\\TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj": {
+    "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs tasks\\TranquiloSystem\\TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj",
+        "projectUniqueName": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj",
         "projectName": "TranquiloSystem.BLL",
-        "projectPath": "D:\\vs tasks\\TranquiloSystem\\TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj",
+        "projectPath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\vs tasks\\TranquiloSystem\\TranquiloSystem.BLL\\obj\\",
+        "outputPath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\vs tasks\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj": {
-                "projectPath": "D:\\vs tasks\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj"
+              "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj": {
+                "projectPath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj"
               }
             }
           }
@@ -48,6 +48,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,14 +74,14 @@
         }
       }
     },
-    "D:\\vs tasks\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj": {
+    "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs tasks\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj",
+        "projectUniqueName": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj",
         "projectName": "TranquiloSystem.DAL",
-        "projectPath": "D:\\vs tasks\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj",
+        "projectPath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\vs tasks\\TranquiloSystem\\TranquiloSystem.DAL\\obj\\",
+        "outputPath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,6 +115,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"

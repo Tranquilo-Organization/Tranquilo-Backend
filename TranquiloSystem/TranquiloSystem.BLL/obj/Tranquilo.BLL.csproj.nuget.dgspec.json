@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.BLL\\Tranquilo.BLL.csproj": {}
+    "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Tranquilo.BLL.csproj": {}
   },
   "projects": {
-    "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.BLL\\Tranquilo.BLL.csproj": {
+    "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Tranquilo.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.BLL\\Tranquilo.BLL.csproj",
+        "projectUniqueName": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Tranquilo.BLL.csproj",
         "projectName": "Tranquilo.BLL",
-        "projectPath": "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.BLL\\Tranquilo.BLL.csproj",
+        "projectPath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Tranquilo.BLL.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.BLL\\obj\\",
+        "outputPath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.DAL\\Tranquilo.DAL.csproj": {
-                "projectPath": "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.DAL\\Tranquilo.DAL.csproj"
+              "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Tranquilo.DAL.csproj": {
+                "projectPath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Tranquilo.DAL.csproj"
               }
             }
           }
@@ -48,6 +48,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,14 +74,14 @@
         }
       }
     },
-    "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.DAL\\Tranquilo.DAL.csproj": {
+    "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Tranquilo.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.DAL\\Tranquilo.DAL.csproj",
+        "projectUniqueName": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Tranquilo.DAL.csproj",
         "projectName": "Tranquilo.DAL",
-        "projectPath": "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.DAL\\Tranquilo.DAL.csproj",
+        "projectPath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Tranquilo.DAL.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.DAL\\obj\\",
+        "outputPath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

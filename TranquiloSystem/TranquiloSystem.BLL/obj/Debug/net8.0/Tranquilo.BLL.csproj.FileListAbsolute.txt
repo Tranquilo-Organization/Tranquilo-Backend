@@ -1,0 +1,16 @@
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\bin\Debug\net8.0\Tranquilo.BLL.deps.json
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\bin\Debug\net8.0\Tranquilo.BLL.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\bin\Debug\net8.0\Tranquilo.BLL.pdb
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\bin\Debug\net8.0\Tranquilo.DAL.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\bin\Debug\net8.0\Tranquilo.DAL.pdb
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\obj\Debug\net8.0\Tranquilo.BLL.csproj.AssemblyReference.cache
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\obj\Debug\net8.0\Tranquilo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\obj\Debug\net8.0\Tranquilo.BLL.AssemblyInfoInputs.cache
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\obj\Debug\net8.0\Tranquilo.BLL.AssemblyInfo.cs
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\obj\Debug\net8.0\Tranquilo.BLL.csproj.CoreCompileInputs.cache
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\obj\Debug\net8.0\Tranquilo.BLL.sourcelink.json
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\obj\Debug\net8.0\Tranquil.7E18B946.Up2Date
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\obj\Debug\net8.0\Tranquilo.BLL.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\obj\Debug\net8.0\refint\Tranquilo.BLL.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\obj\Debug\net8.0\Tranquilo.BLL.pdb
+D:\IEEE\TranquiloSystem\TranquiloSystem.BLL\obj\Debug\net8.0\ref\Tranquilo.BLL.dll

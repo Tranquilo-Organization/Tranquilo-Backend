@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5OiLvuOZkvlAwokJCJ++uxVP+EZq+b0M3GwN+sypUws4vJSaCCs2uynO6xdmb4eq3F3mn9dZq63Cg9RTiGZMyQ==",
+  "dgSpecHash": "cpHrendgJ+nuGh+ioxEL6JS4cki28pfQAs3G1CEq4Am7LMAiP+78hYHEINudPU2jrtWTpB5MLnmF0fc3Yc3G3w==",
   "success": true,
-  "projectFilePath": "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.BLL\\Tranquilo.BLL.csproj",
+  "projectFilePath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.8\\microsoft.aspnetcore.cryptography.internal.8.0.8.nupkg.sha512",

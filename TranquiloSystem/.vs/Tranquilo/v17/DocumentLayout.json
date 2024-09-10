@@ -1,7 +1,130 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\IEEE\\TranquiloSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\data\\models\\userroutine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\data\\models\\userroutine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\vs tasks\\\u0631\u0648\u0627\u062F \u0645\u0635\u0631\\HospitalSystem\\HospitalSystem.DAL\\Data\\DbHelper\\HospitalContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/CustomIdentity/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\data\\models\\userscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\data\\models\\userscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\data\\models\\surveyanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\data\\models\\surveyanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\data\\models\\surveyquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\data\\models\\surveyquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\data\\models\\chatbotinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\data\\models\\chatbotinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\data\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\data\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\data\\models\\routine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\data\\models\\routine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\data\\models\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\data\\models\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|solutionrelative:tranquilosystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|solutionrelative:tranquilosystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\data\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\data\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\data\\dbhelper\\tranquilocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\data\\dbhelper\\tranquilocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Tranquilo.BLL.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TranquiloSystem.BLL\\Tranquilo.BLL.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\surveyrepo\\isurveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\surveyrepo\\isurveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Tranquilo.DAL.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TranquiloSystem.DAL\\Tranquilo.DAL.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\surveyrepo\\surveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\surveyrepo\\surveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\commentrepo\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\commentrepo\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\commentrepo\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\commentrepo\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\userroutinerepo\\iuserroutinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\userroutinerepo\\iuserroutinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\userroutinerepo\\userroutinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\userroutinerepo\\userroutinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\postrepo\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\postrepo\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\levelrepo\\levelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\levelrepo\\levelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\levelrepo\\ilevelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\levelrepo\\ilevelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\routinerepo\\routinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\routinerepo\\routinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\routinerepo\\iroutinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\routinerepo\\iroutinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\accountrepo\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\accountrepo\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\accountrepo\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\accountrepo\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\postrepo\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\postrepo\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +132,385 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRoutine.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\UserRoutine.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\Models\\UserRoutine.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\UserRoutine.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Data\\Models\\UserRoutine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T01:42:19.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserScore.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\UserScore.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\Models\\UserScore.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\UserScore.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Data\\Models\\UserScore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:43:04.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SurveyAnswer.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\SurveyAnswer.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\Models\\SurveyAnswer.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\SurveyAnswer.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Data\\Models\\SurveyAnswer.cs",
+              "ViewState": "AQIAAAIAAADgZGZmZmb2vxEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:37:22.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SurveyQuestion.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\SurveyQuestion.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\Models\\SurveyQuestion.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\SurveyQuestion.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Data\\Models\\SurveyQuestion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:35:38.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChatBotInteraction.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\ChatBotInteraction.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\Models\\ChatBotInteraction.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\ChatBotInteraction.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Data\\Models\\ChatBotInteraction.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAABQPRAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T21:36:38.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\Models\\Comment.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\Comment.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Data\\Models\\Comment.cs",
+              "ViewState": "AQIAAAUAAACAMjMzMzMrwA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T01:48:39.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Data\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAvwAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T01:10:13.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Routine.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\Routine.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\Models\\Routine.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\Routine.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Data\\Models\\Routine.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAABQPQ8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T01:31:08.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Level.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\Level.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\Models\\Level.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\Level.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Data\\Models\\Level.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T01:30:33.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Program.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.API\\Program.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Program.cs",
+              "RelativeToolTip": "TranquiloSystem.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T21:29:10.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TranquiloSystem.API\\appsettings.json",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\appsettings.json",
+              "RelativeToolTip": "TranquiloSystem.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T21:24:35.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\Models\\Post.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\Post.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Data\\Models\\Post.cs",
+              "ViewState": "AQIAAAMAAACAMjMzMzMrwBIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T01:47:38.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TranquiloContext.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\DbHelper\\TranquiloContext.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\DbHelper\\TranquiloContext.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\DbHelper\\TranquiloContext.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Data\\DbHelper\\TranquiloContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:45:16.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Tranquilo.BLL.csproj",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Tranquilo.BLL.csproj",
+              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Tranquilo.BLL.csproj",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Tranquilo.BLL.csproj",
+              "RelativeToolTip": "TranquiloSystem.BLL\\Tranquilo.BLL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-10T08:52:21.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ISurveyRepository.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\SurveyRepo\\ISurveyRepository.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\SurveyRepo\\ISurveyRepository.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\SurveyRepo\\ISurveyRepository.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\SurveyRepo\\ISurveyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:44:46.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HospitalContext.cs",
+              "DocumentMoniker": "D:\\vs tasks\\\u0631\u0648\u0627\u062F \u0645\u0635\u0631\\HospitalSystem\\HospitalSystem.DAL\\Data\\DbHelper\\HospitalContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\vs tasks\\\u0631\u0648\u0627\u062F \u0645\u0635\u0631\\HospitalSystem\\HospitalSystem.DAL\\Data\\DbHelper\\HospitalContext.cs",
+              "ToolTip": "D:\\vs tasks\\\u0631\u0648\u0627\u062F \u0645\u0635\u0631\\HospitalSystem\\HospitalSystem.DAL\\Data\\DbHelper\\HospitalContext.cs",
+              "RelativeToolTip": "..\\..\\vs tasks\\\u0631\u0648\u0627\u062F \u0645\u0635\u0631\\HospitalSystem\\HospitalSystem.DAL\\Data\\DbHelper\\HospitalContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:48:02.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Tranquilo.DAL.csproj",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Tranquilo.DAL.csproj",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Tranquilo.DAL.csproj",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Tranquilo.DAL.csproj",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Tranquilo.DAL.csproj",
+              "ViewState": "AQIAAAIAAABAZmZmZmYkwBgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-10T08:49:32.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SurveyRepository.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\SurveyRepo\\SurveyRepository.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\SurveyRepo\\SurveyRepository.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\SurveyRepo\\SurveyRepository.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\SurveyRepo\\SurveyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:44:39.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\CommentRepo\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\CommentRepo\\ICommentRepository.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\CommentRepo\\ICommentRepository.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\CommentRepo\\ICommentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:43:45.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\CommentRepo\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\CommentRepo\\CommentRepository.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\CommentRepo\\CommentRepository.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\CommentRepo\\CommentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:43:30.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUserRoutineRepository.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\UserRoutineRepo\\IUserRoutineRepository.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\UserRoutineRepo\\IUserRoutineRepository.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\UserRoutineRepo\\IUserRoutineRepository.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\UserRoutineRepo\\IUserRoutineRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:42:09.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserRoutineRepository.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\UserRoutineRepo\\UserRoutineRepository.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\UserRoutineRepo\\UserRoutineRepository.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\UserRoutineRepo\\UserRoutineRepository.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\UserRoutineRepo\\UserRoutineRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:42:05.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\PostRepo\\PostRepository.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\PostRepo\\PostRepository.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\PostRepo\\PostRepository.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\PostRepo\\PostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:40:18.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LevelRepository.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\LevelRepo\\LevelRepository.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\LevelRepo\\LevelRepository.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\LevelRepo\\LevelRepository.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\LevelRepo\\LevelRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:38:44.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ILevelRepository.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\LevelRepo\\ILevelRepository.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\LevelRepo\\ILevelRepository.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\LevelRepo\\ILevelRepository.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\LevelRepo\\ILevelRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:38:35.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RoutineRepository.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\RoutineRepo\\RoutineRepository.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\RoutineRepo\\RoutineRepository.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\RoutineRepo\\RoutineRepository.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\RoutineRepo\\RoutineRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:38:10.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IRoutineRepository.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\RoutineRepo\\IRoutineRepository.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\RoutineRepo\\IRoutineRepository.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\RoutineRepo\\IRoutineRepository.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\RoutineRepo\\IRoutineRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:38:03.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\AccountRepo\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\AccountRepo\\IAccountRepository.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\AccountRepo\\IAccountRepository.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\AccountRepo\\IAccountRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:37:02.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\AccountRepo\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\AccountRepo\\AccountRepository.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\AccountRepo\\AccountRepository.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\AccountRepo\\AccountRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:37:20.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\PostRepo\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\PostRepo\\IPostRepository.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\PostRepo\\IPostRepository.cs",
+              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\PostRepo\\IPostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:40:25.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/CustomIdentity/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-10T01:40:29.121Z"
             }
           ]
         }

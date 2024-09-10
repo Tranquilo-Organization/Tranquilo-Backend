@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gtOm/vnMzXZAEUTdpadQPWQqDRQnAeyFbPBwNeNV9Cfc8SqA1fqRkIWdo6BW3Yg+VIFA5JqpvJnZKEEngO7uFg==",
+  "dgSpecHash": "yb+6Z2zY1X2BCowPDSM6DCCXLXMx0jqnx8r4EU9neRL4KS1TV+4VRDDQ7DpyrHVT9maC2JYynzhn0U1jBfHPxA==",
   "success": true,
-  "projectFilePath": "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.DAL\\Tranquilo.DAL.csproj",
+  "projectFilePath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

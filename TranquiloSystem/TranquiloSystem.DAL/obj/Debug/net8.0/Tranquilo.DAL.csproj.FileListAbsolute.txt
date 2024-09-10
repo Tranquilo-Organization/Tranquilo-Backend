@@ -1,0 +1,15 @@
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\bin\Debug\net8.0\Tranquilo.DAL.deps.json
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\bin\Debug\net8.0\Tranquilo.DAL.runtimeconfig.json
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\bin\Debug\net8.0\Tranquilo.DAL.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\bin\Debug\net8.0\Tranquilo.DAL.pdb
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\obj\Debug\net8.0\Tranquilo.DAL.csproj.AssemblyReference.cache
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\obj\Debug\net8.0\Tranquilo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\obj\Debug\net8.0\Tranquilo.DAL.AssemblyInfoInputs.cache
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\obj\Debug\net8.0\Tranquilo.DAL.AssemblyInfo.cs
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\obj\Debug\net8.0\Tranquilo.DAL.csproj.CoreCompileInputs.cache
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\obj\Debug\net8.0\Tranquilo.DAL.sourcelink.json
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\obj\Debug\net8.0\Tranquilo.DAL.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\obj\Debug\net8.0\refint\Tranquilo.DAL.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\obj\Debug\net8.0\Tranquilo.DAL.pdb
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\obj\Debug\net8.0\Tranquilo.DAL.genruntimeconfig.cache
+D:\IEEE\TranquiloSystem\TranquiloSystem.DAL\obj\Debug\net8.0\ref\Tranquilo.DAL.dll
