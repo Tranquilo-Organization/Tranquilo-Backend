@@ -13,7 +13,5 @@ namespace Tranquilo.DAL.Data.Models
 		public string? UserId { get; set; }
 		public ApplicationUser User { get; set; }
 		public List<Message> Messages { get; set; } = new List<Message>();
-
 	}
-
 }
