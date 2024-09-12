@@ -85,3 +85,17 @@ In the `appsettings.json` file, the following configurations are used:
 ## Database Scheme
 ![Database Schema](./Erd/finalErd.PNG)
 
+### Tables:
+- ***Identity tables.***
+- ***BotConversation.***
+- ***Level.***
+- ***Message.***
+- ***Notification.***
+- ***Post***
+- ***PostComment.***
+- ***Routine.***
+- ***SurveyAnswer***
+- ***SurveyQuestion***
+- ***UserRoutine***
+- ***UserScore***
+
