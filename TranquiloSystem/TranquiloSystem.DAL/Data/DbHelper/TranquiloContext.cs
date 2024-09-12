@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tranquilo.DAL.Data.Models;
+using TranquiloSystem.DAL.Data.Models;
 
 namespace TranquiloSystem.DAL.Data.DbHelper
 {
@@ -16,6 +17,17 @@ namespace TranquiloSystem.DAL.Data.DbHelper
         {
             base.OnModelCreating(modelBuilder);
         }
+        public DbSet<Level> Levels { get; set; }
+        public DbSet<Routine> Routines { get; set; }
+        public DbSet<UserRoutine> UserRoutines { get; set; }
+        public DbSet<SurveyQuestion> SurveyQuestions { get; set; }
+        public DbSet<SurveyAnswer> SurveyAnswers { get; set; }
+        public DbSet<UserScore> UserScores { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
+        public DbSet<Post> Posts { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        public DbSet<ChatBotInteraction> ChatBotInteractions { get; set; }
+
 
     }
 }

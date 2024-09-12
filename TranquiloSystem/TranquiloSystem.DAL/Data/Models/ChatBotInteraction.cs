@@ -13,7 +13,7 @@ namespace Tranquilo.DAL.Data.Models
 		public string BotMessage { get; set; }
 		public DateTime InteractionDate { get; set; }
 
-		public string UserId { get; set; }
+		public string? UserId { get; set; }
 		public ApplicationUser User { get; set; }
 	}
 

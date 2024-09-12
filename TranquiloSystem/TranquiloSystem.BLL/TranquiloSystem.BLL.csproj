@@ -14,11 +14,6 @@
     <ProjectReference Include="..\TranquiloSystem.DAL\TranquiloSystem.DAL.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Dtos\" />
-    <Folder Include="Manager\" />
-  </ItemGroup>
-
 </Project>
 
 <!--logic mapping here-->

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tranquilo.DAL.Repositories.SurveyRepo
+namespace TranquiloSystem.DAL.Repositories.SurveyAnswerRepo
 {
-    public interface ISurveyRepository
-    {
-    }
+	public interface ISurveyAnswerRepository
+	{
+	}
 }
