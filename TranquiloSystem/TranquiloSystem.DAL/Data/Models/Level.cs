@@ -13,5 +13,6 @@ namespace Tranquilo.DAL.Data.Models
         public string? Description { get; set; }
 		public int MinScore { get; set; }
 		public int MaxScore { get; set; }
+        public List<Routine> Routines { get; set; } = new List<Routine>();
 	}
 }

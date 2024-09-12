@@ -12,7 +12,7 @@ namespace Tranquilo.DAL.Data.Models
 		public string UserId { get; set; } 
 		public ApplicationUser User { get; set; }
 		public int Score { get; set; } 
-		public DateTime LastUpdated { get; set; }
+		public DateTime CreatedAt { get; set; }
 		public int LevelId { get; set; } 
 		public Level Level { get; set; } 
 	}

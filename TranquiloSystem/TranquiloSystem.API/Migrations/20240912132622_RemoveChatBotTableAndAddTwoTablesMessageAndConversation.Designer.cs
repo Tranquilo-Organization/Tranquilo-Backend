@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TranquiloSystem.DAL.Data.DbHelper;
 
@@ -11,9 +12,11 @@ using TranquiloSystem.DAL.Data.DbHelper;
 namespace TranquiloSystem.API.Migrations
 {
     [DbContext(typeof(TranquiloContext))]
-    partial class TranquiloContextModelSnapshot : ModelSnapshot
+    [Migration("20240912132622_RemoveChatBotTableAndAddTwoTablesMessageAndConversation")]
+    partial class RemoveChatBotTableAndAddTwoTablesMessageAndConversation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -256,6 +259,37 @@ namespace TranquiloSystem.API.Migrations
                     b.ToTable("BotConversations");
                 });
 
+            modelBuilder.Entity("Tranquilo.DAL.Data.Models.Comment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PostID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PostID");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Comments");
+                });
+
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.Level", b =>
                 {
                     b.Property<int>("Id")
@@ -300,14 +334,8 @@ namespace TranquiloSystem.API.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedDate")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("Like")
                         .HasColumnType("int");
-
-                    b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("datetime2");
 
                     b.Property<string>("UserId")
                         .IsRequired()
@@ -318,43 +346,6 @@ namespace TranquiloSystem.API.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Posts");
-                });
-
-            modelBuilder.Entity("Tranquilo.DAL.Data.Models.PostComment", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Content")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("PostID")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PostID");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("PostComments");
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.Routine", b =>
@@ -476,7 +467,7 @@ namespace TranquiloSystem.API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("CreatedAt")
+                    b.Property<DateTime>("LastUpdated")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("LevelId")
@@ -630,18 +621,7 @@ namespace TranquiloSystem.API.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Tranquilo.DAL.Data.Models.Post", b =>
-                {
-                    b.HasOne("Tranquilo.DAL.Data.Models.ApplicationUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("Tranquilo.DAL.Data.Models.PostComment", b =>
+            modelBuilder.Entity("Tranquilo.DAL.Data.Models.Comment", b =>
                 {
                     b.HasOne("Tranquilo.DAL.Data.Models.Post", "Post")
                         .WithMany()
@@ -656,6 +636,17 @@ namespace TranquiloSystem.API.Migrations
                         .IsRequired();
 
                     b.Navigation("Post");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Tranquilo.DAL.Data.Models.Post", b =>
+                {
+                    b.HasOne("Tranquilo.DAL.Data.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("User");
                 });

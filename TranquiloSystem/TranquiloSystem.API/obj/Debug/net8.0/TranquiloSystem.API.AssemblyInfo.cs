@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranquiloSystem.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03e810532da004e7a8ab2f1cc3fb9a044e1f975c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb4251af87b38022c3824ea0b2e2cb3e94afb1fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranquiloSystem.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranquiloSystem.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

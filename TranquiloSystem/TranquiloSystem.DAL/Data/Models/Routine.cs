@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,7 @@ namespace Tranquilo.DAL.Data.Models
         public RoutineType Type { get; set; } //morning,...
         public List<ApplicationUser> Users { get; set; }
 
+        [ForeignKey(nameof(Level))]
         public int? LevelId { get; set; }
         public Level Level { get; set; }
     }
