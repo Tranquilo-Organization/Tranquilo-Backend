@@ -99,3 +99,5 @@ In the `appsettings.json` file, the following configurations are used:
 - ***UserRoutine***
 - ***UserScore***
 
+### Current Status
+Currently, the authentication endpoints for user registration and login have been implemented. Future features will be added soon.
