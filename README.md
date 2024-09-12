@@ -49,11 +49,24 @@ This layer manages all interactions with the database, including CRUD operations
 - `Microsoft.EntityFrameworkCore` Version 8.0.8
 - `Microsoft.EntityFrameworkCore.SqlServer` Version 8.0.8
 - `Microsoft.EntityFrameworkCore.Tools` Version 8.0.8
+  
+## Installation
+
+1. **Clone the Repo:**
+
+   Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Tranquilo-Organization/Tranquilo-Backend.git
+
+2. **Install packages:**
+   ```bash
+   git restore
 
 ## Configuration
 
 In the `appsettings.json` file, the following configurations are used:
-
+ 
 ```json
 {
   "Logging": {
@@ -68,3 +81,7 @@ In the `appsettings.json` file, the following configurations are used:
   },
   "Key": "75d19b579976fcd772a2c502b98fdaa4675f7fbda75f238eb0f0c357c574a4e2"
 }
+```
+## Database Scheme
+![Database Schema](./Erd/finalErd.PNG)
+
