@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\IEEE\\TranquiloSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\tranquilosystem.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\tranquilosystem.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|solutionrelative:tranquilosystem.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -113,11 +121,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Post.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\Post.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\Models\\Post.cs",
@@ -130,12 +138,38 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TranquiloSystem.BLL",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj",
+              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj",
+              "RelativeToolTip": "TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-12T10:17:01.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\AutoMapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\AutoMapper\\MappingProfile.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\AutoMapper\\MappingProfile.cs",
+              "RelativeToolTip": "TranquiloSystem.BLL\\AutoMapper\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:17:23.708Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AccountManager.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\AccountManager\\AccountManager.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\AccountManager\\AccountManager.cs",
@@ -148,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GeneralResponse.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Dtos\\AccountDto\\GeneralResponse.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Dtos\\AccountDto\\GeneralResponse.cs",
@@ -161,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Dtos\\AccountDto\\RegisterDto.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Dtos\\AccountDto\\RegisterDto.cs",
@@ -174,20 +208,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.API\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\AccountController.cs",
               "RelativeToolTip": "TranquiloSystem.API\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABYAAADA//////8RwCcAAAAEAAAA",
+              "ViewState": "AQIAABYAAADA//////8RwBgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T12:17:02.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Program.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.API\\Program.cs",
@@ -200,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IAccountManager.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\AccountManager\\IAccountManager.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\AccountManager\\IAccountManager.cs",
@@ -213,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IUserRoutineRepository.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\UserRoutineRepo\\IUserRoutineRepository.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\UserRoutineRepo\\IUserRoutineRepository.cs",
@@ -226,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ChatBotInteractionRepository.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\ChatBotInteractionRepo\\ChatBotInteractionRepository.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\ChatBotInteractionRepo\\ChatBotInteractionRepository.cs",
@@ -239,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "IChatBotInteractionRepository.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\ChatBotInteractionRepo\\IChatBotInteractionRepository.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\ChatBotInteractionRepo\\IChatBotInteractionRepository.cs",
@@ -252,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ISurveyQuestionRepository.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\SurveyQuestionRepo\\ISurveyQuestionRepository.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\SurveyQuestionRepo\\ISurveyQuestionRepository.cs",
@@ -265,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "SurveyQuestionRepository.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\SurveyQuestionRepo\\SurveyQuestionRepository.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\SurveyQuestionRepo\\SurveyQuestionRepository.cs",
@@ -278,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "SurveyAnswerRepository.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\SurveyAnswerRepo\\SurveyAnswerRepository.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\SurveyAnswerRepo\\SurveyAnswerRepository.cs",
@@ -291,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "UserScoreRepository.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\UserScoreRepo\\UserScoreRepository.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\UserScoreRepo\\UserScoreRepository.cs",
@@ -304,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "UserRoutine.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\UserRoutine.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\Models\\UserRoutine.cs",
@@ -317,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Routine.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Models\\Routine.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\Models\\Routine.cs",
@@ -330,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ISurveyAnswerRepository.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\SurveyAnswerRepo\\ISurveyAnswerRepository.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\SurveyAnswerRepo\\ISurveyAnswerRepository.cs",
@@ -343,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "IUserScoreRepository.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\UserScoreRepo\\IUserScoreRepository.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\UserScoreRepo\\IUserScoreRepository.cs",
@@ -356,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "INotificationRepository.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\NotificarioRepo\\INotificationRepository.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\NotificarioRepo\\INotificationRepository.cs",
@@ -369,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "NotificationRepository.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\NotificarioRepo\\NotificationRepository.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\NotificarioRepo\\NotificationRepository.cs",
@@ -382,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\appsettings.json",
               "RelativeDocumentMoniker": "TranquiloSystem.API\\appsettings.json",
@@ -395,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "dbo.AspNetUsers [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/Tranquilo/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "dbo.AspNetUsers [Data]",
@@ -405,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Dtos\\AccountDto\\LoginDto.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Dtos\\AccountDto\\LoginDto.cs",
@@ -418,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "20240911015500_init.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Migrations\\20240911015500_init.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.API\\Migrations\\20240911015500_init.cs",
@@ -426,11 +460,12 @@
               "RelativeToolTip": "TranquiloSystem.API\\Migrations\\20240911015500_init.cs",
               "ViewState": "AQIAAEsBAAAAQPwyMzPbv1cBAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T01:55:01.056Z"
+              "WhenOpened": "2024-09-11T01:55:01.056Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "TranquiloSystem.DAL.csproj",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj",
@@ -438,11 +473,12 @@
               "RelativeToolTip": "TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-11T11:43:29.527Z"
+              "WhenOpened": "2024-09-11T11:43:29.527Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "RoutineType.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Data\\Enums\\RoutineType.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Data\\Enums\\RoutineType.cs",
@@ -450,7 +486,8 @@
               "RelativeToolTip": "TranquiloSystem.DAL\\Data\\Enums\\RoutineType.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T01:45:11.842Z"
+              "WhenOpened": "2024-09-11T01:45:11.842Z",
+              "EditorCaption": ""
             }
           ]
         }
