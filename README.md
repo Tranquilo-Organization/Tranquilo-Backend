@@ -61,7 +61,7 @@ This layer manages all interactions with the database, including CRUD operations
 
 2. **Install packages:**
    ```bash
-   git restore
+   dotnet restore
 
 ## Configuration
 
