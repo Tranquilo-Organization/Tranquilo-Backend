@@ -34,7 +34,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UsersId");
 
-                    b.ToTable("ApplicationUserRoutine");
+                    b.ToTable("ApplicationUserRoutine", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -253,7 +253,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("BotConversations");
+                    b.ToTable("BotConversations", (string)null);
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.Level", b =>
@@ -279,7 +279,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Levels");
+                    b.ToTable("Levels", (string)null);
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.Post", b =>
@@ -317,7 +317,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Posts");
+                    b.ToTable("Posts", (string)null);
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.PostComment", b =>
@@ -354,7 +354,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("PostComments");
+                    b.ToTable("PostComments", (string)null);
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.Routine", b =>
@@ -387,7 +387,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("LevelId");
 
-                    b.ToTable("Routines");
+                    b.ToTable("Routines", (string)null);
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.SurveyAnswer", b =>
@@ -415,7 +415,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("SurveyAnswers");
+                    b.ToTable("SurveyAnswers", (string)null);
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.SurveyQuestion", b =>
@@ -432,7 +432,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SurveyQuestions");
+                    b.ToTable("SurveyQuestions", (string)null);
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.UserRoutine", b =>
@@ -465,7 +465,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("UserRoutines");
+                    b.ToTable("UserRoutines", (string)null);
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.UserScore", b =>
@@ -495,7 +495,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("UserScores");
+                    b.ToTable("UserScores", (string)null);
                 });
 
             modelBuilder.Entity("TranquiloSystem.DAL.Data.Models.Message", b =>
@@ -523,7 +523,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("BotConversationId");
 
-                    b.ToTable("Messages");
+                    b.ToTable("Messages", (string)null);
                 });
 
             modelBuilder.Entity("TranquiloSystem.DAL.Data.Models.Notification", b =>
@@ -552,7 +552,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Notifications");
+                    b.ToTable("Notifications", (string)null);
                 });
 
             modelBuilder.Entity("ApplicationUserRoutine", b =>

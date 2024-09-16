@@ -148,3 +148,12 @@ D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Debug\net8.0\refint\TranquiloSys
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Debug\net8.0\TranquiloSystem.API.pdb
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Debug\net8.0\TranquiloSystem.API.genruntimeconfig.cache
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Debug\net8.0\ref\TranquiloSystem.API.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\MailKit.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\MimeKit.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\StackExchange.Redis.dll

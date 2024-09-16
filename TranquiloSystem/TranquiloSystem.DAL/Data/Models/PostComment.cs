@@ -20,5 +20,7 @@ namespace Tranquilo.DAL.Data.Models
         public int PostID { get; set; }
         public Post Post { get; set; }
 
+        
+
     }
 }

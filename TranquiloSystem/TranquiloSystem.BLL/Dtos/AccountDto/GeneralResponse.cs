@@ -8,9 +8,9 @@ namespace TranquiloSystem.BLL.Dtos.AccountDto
 {
 	public class GeneralResponse
 	{
-		public bool IsSucceeded { get; set; }
-		public string Message { get; set; }
-		public string Token { get; set; }
-		public DateTime ExpireDate { get; set; }
+		public bool IsSucceeded { get; set; } 
+		public string? Message { get; set; }
+		public string? Token { get; set; }
+		public DateTime? ExpireDate { get; set; }
 	}
 }

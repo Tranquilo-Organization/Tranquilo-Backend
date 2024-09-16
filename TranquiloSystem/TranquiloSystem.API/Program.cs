@@ -1,11 +1,19 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Text;
 using Tranquilo.DAL.Data.Models;
+using Tranquilo.DAL.Repositories.PostRepo;
 using TranquiloSystem.BLL.Manager.AccountManager;
+using TranquiloSystem.BLL.Manager.EmailManager;
+using TranquiloSystem.BLL.Manager.OtpManager;
+using TranquiloSystem.BLL.Manager.PostManager;
 using TranquiloSystem.DAL.Data.DbHelper;
+using TranquiloSystem.DAL.Data.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,13 +27,13 @@ builder.Services.AddSwaggerGen();
 
 //builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("Jwt"));
 
-
 builder.Services.AddDbContext<TranquiloContext>(
 	options => options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")
         ,b=>b.MigrationsAssembly("TranquiloSystem.API")
     ));
-builder.Services.AddScoped<IAccountManager, AccountManager>();
+
+
 builder.Services.AddAuthentication(options =>
 {
 	options.DefaultAuthenticateScheme = "JWT";
@@ -47,22 +55,37 @@ builder.Services.AddAuthentication(options =>
 	};
 });
 
+
 builder.Services.AddIdentity<ApplicationUser, Microsoft.AspNetCore.Identity.IdentityRole>(options =>
 {
 	options.Password.RequireNonAlphanumeric = false;
 	options.Password.RequireLowercase = false;
 	options.Password.RequireUppercase = false;
 	options.Password.RequiredLength = 5;
-})
-				.AddEntityFrameworkStores<TranquiloContext>();
+	options.Tokens.PasswordResetTokenProvider = TokenOptions.DefaultProvider;
+}).AddEntityFrameworkStores<TranquiloContext>()
+.AddDefaultTokenProviders();
 
+builder.Services.AddMemoryCache();
+
+
+
+builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
+builder.Services.AddScoped<IEmailManager, EmailManager>();
+builder.Services.AddScoped<IOtpManager, OtpManager>();
 builder.Services.AddScoped<IAccountManager, AccountManager>();
+builder.Services.AddScoped<IPostManager,PostManager>();
+builder.Services.AddScoped<IPostRepository, PostRepository>();
 
 
-
+builder.Services.AddAutoMapper(typeof(Program));
 
 
 var app = builder.Build();
+
+var smtpSettings = app.Services.GetRequiredService<IOptions<SmtpSettings>>().Value;
+Console.WriteLine($"SMTP Host: {smtpSettings.Host}");
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

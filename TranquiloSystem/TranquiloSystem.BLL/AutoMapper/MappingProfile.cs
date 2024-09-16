@@ -5,6 +5,8 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
+using Tranquilo.DAL.Data.Models;
+using TranquiloSystem.BLL.Dtos.PostDto.PostDto;
 
 namespace TranquiloSystem.BLL.AutoMapper
 {
@@ -12,7 +14,7 @@ namespace TranquiloSystem.BLL.AutoMapper
 	{
 		public MappingProfile()
 		{
-			
+			CreateMap<PostReadDto, Post>().ReverseMap();
 		}
 	}
 }

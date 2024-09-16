@@ -26,11 +26,8 @@ namespace TranquiloSystem.DAL.Data.DbHelper
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<Post> Posts { get; set; }
         public DbSet<PostComment> PostComments { get; set; }
-
         public DbSet<Message> Messages { get; set; }
         public DbSet<BotConversation> BotConversations { get; set; }
-        //public DbSet<Conversation> ChatBotInteractions { get; set; }
-
 
     }
 }

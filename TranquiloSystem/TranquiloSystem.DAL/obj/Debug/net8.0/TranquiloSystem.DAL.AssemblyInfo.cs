@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranquiloSystem.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb4251af87b38022c3824ea0b2e2cb3e94afb1fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8733e904d123a9b6ea1ed317336e6ef1a08b3fcf")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranquiloSystem.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranquiloSystem.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
