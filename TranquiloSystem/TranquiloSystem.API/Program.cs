@@ -70,7 +70,16 @@ builder.Services.AddMemoryCache();
 
 
 
+builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+
 builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
+//builder.Services.Configure<SmtpSettings>(options =>
+//{
+//	options.Host = Environment.GetEnvironmentVariable("SMTP_HOST");
+//	options.Port = int.Parse(Environment.GetEnvironmentVariable("SMTP_PORT"));
+//	options.UserName = Environment.GetEnvironmentVariable("SMTP_USERNAME");
+//	options.Password = Environment.GetEnvironmentVariable("SMTP_PASSWORD");
+//});
 builder.Services.AddScoped<IEmailManager, EmailManager>();
 builder.Services.AddScoped<IOtpManager, OtpManager>();
 builder.Services.AddScoped<IAccountManager, AccountManager>();

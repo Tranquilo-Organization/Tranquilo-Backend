@@ -3,26 +3,28 @@
   "WorkspaceRootPath": "D:\\IEEE\\TranquiloSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|solutionrelative:tranquilosystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\manager\\emailmanager\\emailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\manager\\emailmanager\\emailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\AppData\\Roaming\\Microsoft\\UserSecrets\\fb4b3684-29b2-4893-a09a-049e83e61b4e\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\manager\\otpmanager\\otpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\manager\\otpmanager\\otpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|solutionrelative:tranquilosystem.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\manager\\accountmanager\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\manager\\accountmanager\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/Tranquilo/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|solutionrelative:tranquilosystem.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|solutionrelative:tranquilosystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\manager\\otpmanager\\otpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\manager\\otpmanager\\otpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,62 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "secrets.json",
-              "DocumentMoniker": "C:\\Users\\DELL\\AppData\\Roaming\\Microsoft\\UserSecrets\\fb4b3684-29b2-4893-a09a-049e83e61b4e\\secrets.json",
-              "ToolTip": "C:\\Users\\DELL\\AppData\\Roaming\\Microsoft\\UserSecrets\\fb4b3684-29b2-4893-a09a-049e83e61b4e\\secrets.json*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-16T12:44:29.751Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmailManager.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\EmailManager\\EmailManager.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\EmailManager\\EmailManager.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\EmailManager\\EmailManager.cs*",
-              "RelativeToolTip": "TranquiloSystem.BLL\\Manager\\EmailManager\\EmailManager.cs*",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAMwB4AAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T14:48:26.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OtpManager.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\OtpManager\\OtpManager.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\OtpManager\\OtpManager.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\OtpManager\\OtpManager.cs",
-              "RelativeToolTip": "TranquiloSystem.BLL\\Manager\\OtpManager\\OtpManager.cs",
-              "ViewState": "AQIAABIAAACgmZmZmZkowCQAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T14:26:38.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AccountManager.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\AccountManager\\AccountManager.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\AccountManager\\AccountManager.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\AccountManager\\AccountManager.cs*",
-              "RelativeToolTip": "TranquiloSystem.BLL\\Manager\\AccountManager\\AccountManager.cs*",
-              "ViewState": "AQIAAI4AAAAAAAAAAAAMwJoAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T12:10:46.821Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -97,19 +48,73 @@
               "RelativeDocumentMoniker": "TranquiloSystem.API\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\AccountController.cs",
               "RelativeToolTip": "TranquiloSystem.API\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAEUAAACAmZmZmZkkwEYAAAADAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAswDEAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:32:35.861Z",
+              "WhenOpened": "2024-09-17T15:05:05.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailManager.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\EmailManager\\EmailManager.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\EmailManager\\EmailManager.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\EmailManager\\EmailManager.cs",
+              "RelativeToolTip": "TranquiloSystem.BLL\\Manager\\EmailManager\\EmailManager.cs",
+              "ViewState": "AQIAACMAAAAAYpmZmZnZvz0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:48:26.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "dbo.AspNetUsers [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/Tranquilo/True/SqlTable/dbo.AspNetUsers.sql",
-              "ToolTip": "dbo.AspNetUsers [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-14T11:34:47.585Z"
+              "Title": "OtpManager.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\OtpManager\\OtpManager.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\OtpManager\\OtpManager.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\OtpManager\\OtpManager.cs",
+              "RelativeToolTip": "TranquiloSystem.BLL\\Manager\\OtpManager\\OtpManager.cs",
+              "ViewState": "AQIAAA8AAABwMzMzMzMZwCAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:26:38.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountManager.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\AccountManager\\AccountManager.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\AccountManager\\AccountManager.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\AccountManager\\AccountManager.cs",
+              "RelativeToolTip": "TranquiloSystem.BLL\\Manager\\AccountManager\\AccountManager.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAswHUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T12:10:46.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Program.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.API\\Program.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Program.cs",
+              "RelativeToolTip": "TranquiloSystem.API\\Program.cs",
+              "ViewState": "AQIAADgAAABAY2ZmZmYpwEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:15:09.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TranquiloSystem.API\\appsettings.json",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\appsettings.json*",
+              "RelativeToolTip": "TranquiloSystem.API\\appsettings.json*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-16T19:07:14.889Z",
+              "EditorCaption": ""
             }
           ]
         }

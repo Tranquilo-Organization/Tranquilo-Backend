@@ -26,7 +26,7 @@ namespace TranquiloSystem.BLL.Manager.OtpManager
 		}
 		public async Task<string> GenerateOtpAsync(string email)
 		{
-			var otp = new Random().Next(10000, 99999).ToString();
+			var otp = new Random().Next(100000, 999999).ToString();
 
 			_cache.Set($"{email}_Verified", otp, TimeSpan.FromMinutes(10)); 
 			return otp;

@@ -18,11 +18,16 @@ namespace TranquiloSystem.BLL.Manager.EmailManager
 		public EmailManager(IOptions<SmtpSettings> smtpSettings)
 		{
 			_smtpSettings = smtpSettings.Value;
+			Console.WriteLine($"Host: {_smtpSettings.Host}");
+			Console.WriteLine($"Port: {_smtpSettings.Port}");
+			Console.WriteLine($"Username: {_smtpSettings.UserName}");
+			Console.WriteLine($"Password: {_smtpSettings.Password}");
 		}
 
 		public async Task<GeneralResponse> SendEmailAsync(string recipientEmail, string subject, string body)
 		{
 			GeneralResponse response = new GeneralResponse();
+			
 
 			try
 			{

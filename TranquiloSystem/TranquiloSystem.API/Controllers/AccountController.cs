@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using TranquiloSystem.BLL.Dtos.AccountDto;
 using TranquiloSystem.BLL.Dtos.OtpDto;
@@ -26,11 +27,11 @@ namespace TranquiloSystem.API.Controllers
 				var result = await _accountManager.Register(registerDto);
 				if (result.IsSucceeded == false)
 				{
-					return BadRequest(result.Message);
+					return BadRequest(new { result.Message , StatusCode = 400 });
 				}
-				return Ok(new { result.Token, result.ExpireDate });
+				return Ok(new { result.Token, result.ExpireDate, StatusCode = 200 });
 			}
-			return BadRequest();
+			return BadRequest(new {ModelState, StatusCode = 400 });
 		}
 
 		[HttpPost("Login")]
@@ -39,9 +40,9 @@ namespace TranquiloSystem.API.Controllers
 			var result = await _accountManager.Login(loginDto);
 			if(result.IsSucceeded == false)
 			{
-				return Unauthorized(result.Message);
+				return Unauthorized(new { result.Message, StatusCode = 401 });
 			}
-			return Ok(new {result.Token, result.ExpireDate});
+			return Ok(new {result.Token, result.ExpireDate , StatusCode = 200});
 		}
 
 		[HttpPost("forgot-password")]
@@ -49,14 +50,14 @@ namespace TranquiloSystem.API.Controllers
 		{
 			if (!ModelState.IsValid)
 			{
-				return BadRequest(ModelState);
+				return BadRequest(new { ModelState, StatusCode = 400 });
 			}
 			var response = await _accountManager.SendOtpForPasswordReset(dto);
 			if (!response.IsSucceeded)
 			{
-				return BadRequest(response.Message);
+				return BadRequest(new { response.Message, StatusCode = 400 });
 			}
-			return Ok(response.Message);
+			return Ok(new { response.Message, statusCode = 200 });
 		}
 
 		[HttpPost("verify-otp")]
@@ -64,15 +65,15 @@ namespace TranquiloSystem.API.Controllers
 		{
 			if (!ModelState.IsValid)
 			{
-				return BadRequest(ModelState);
+				return BadRequest(new { ModelState, StatusCode = 400 });
 			}
 
 			var response = await _accountManager.VerifyOtp(dto);
 			if (!response.IsSucceeded)
 			{
-				return BadRequest(response.Message);
+				return BadRequest(new { response.Message, StatusCode = 400 });
 			}
-			return Ok(response.Message);
+			return Ok(new { response.Message, statusCode = 200 });
 		}
 
 		[HttpPost("reset-password")]
@@ -80,20 +81,21 @@ namespace TranquiloSystem.API.Controllers
 		{
 			if (!ModelState.IsValid)
 			{
-				return BadRequest(ModelState);
+				return BadRequest(new { ModelState, StatusCode = 400 });
 			}
 
 			var response = await _accountManager.ResetPasswordWithOtp(dto);
 			if (!response.IsSucceeded)
 			{
-				return BadRequest(response.Message);
+				return BadRequest(new { response.Message, StatusCode = 400 });
 			}
 
 			return Ok(new
 			{
 				token = response.Token,
 				expireDate = response.ExpireDate,
-				message = response.Message
+				message = response.Message,
+				StatusCode = 200
 			});
 		}
 

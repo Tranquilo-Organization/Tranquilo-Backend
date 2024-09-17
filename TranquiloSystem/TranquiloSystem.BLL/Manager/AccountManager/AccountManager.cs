@@ -69,7 +69,7 @@ namespace TranquiloSystem.BLL.Manager.AccountManager
 			var emailExists = await _userManager.FindByEmailAsync(registerDto.Email);
 			if (emailExists != null)
 			{
-				generalResponse.Message = "The Email Adress Is Already Exists";
+				generalResponse.Message = "The Email Address Is Already Exists";
 				generalResponse.IsSucceeded = false;
 				return generalResponse;
 			}
