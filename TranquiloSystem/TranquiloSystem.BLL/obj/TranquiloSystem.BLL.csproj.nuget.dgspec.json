@@ -76,6 +76,11 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
       }
     },
     "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj": {
@@ -161,6 +166,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
         }
       }
     }

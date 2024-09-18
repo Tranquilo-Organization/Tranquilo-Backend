@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranquiloSystem.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da46a97714a8cb18f525748fa93eacd2c7aabe5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e85bcf0837a89c38953bff6a3c38ae1a1b8df7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranquiloSystem.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranquiloSystem.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

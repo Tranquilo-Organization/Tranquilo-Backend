@@ -4779,6 +4779,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "MailKit >= 4.7.1.1",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
       "Microsoft.Extensions.Caching.StackExchangeRedis >= 8.0.8",
@@ -4836,6 +4837,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "MailKit": {
+            "target": "Package",
+            "version": "[4.7.1.1, )"
+          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[8.0.8, )"

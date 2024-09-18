@@ -58,6 +58,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddIdentity<ApplicationUser, Microsoft.AspNetCore.Identity.IdentityRole>(options =>
 {
+	options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ";
 	options.Password.RequireNonAlphanumeric = false;
 	options.Password.RequireLowercase = false;
 	options.Password.RequireUppercase = false;
@@ -74,12 +75,14 @@ builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnC
 
 builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
 //builder.Services.Configure<SmtpSettings>(options =>
-//{
+//   {
 //	options.Host = Environment.GetEnvironmentVariable("SMTP_HOST");
 //	options.Port = int.Parse(Environment.GetEnvironmentVariable("SMTP_PORT"));
 //	options.UserName = Environment.GetEnvironmentVariable("SMTP_USERNAME");
 //	options.Password = Environment.GetEnvironmentVariable("SMTP_PASSWORD");
-//});
+//})
+
+
 builder.Services.AddScoped<IEmailManager, EmailManager>();
 builder.Services.AddScoped<IOtpManager, OtpManager>();
 builder.Services.AddScoped<IAccountManager, AccountManager>();
@@ -97,11 +100,11 @@ Console.WriteLine($"SMTP Host: {smtpSettings.Host}");
 
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 app.UseHttpsRedirection();
 

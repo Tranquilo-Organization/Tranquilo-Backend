@@ -19,6 +19,7 @@ namespace TranquiloSystem.API.Controllers
         {
             _accountManager = accountManager;
         }
+
 		[HttpPost("Register")]
 		public async Task<IActionResult> Register([FromBody] RegisterDto registerDto)
 		{

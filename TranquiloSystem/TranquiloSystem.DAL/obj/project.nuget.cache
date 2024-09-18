@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yb+6Z2zY1X2BCowPDSM6DCCXLXMx0jqnx8r4EU9neRL4KS1TV+4VRDDQ7DpyrHVT9maC2JYynzhn0U1jBfHPxA==",
+  "dgSpecHash": "AahuhGIyZ6TlRUxYaA5K+P86ktN1FpGcxgFFPjEI6eGJRJLvtEogG5D2tolOs0iYgy8xJQ1ZZix0i5TRrZpmWA==",
   "success": true,
   "projectFilePath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,8 @@
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\runtime.any.system.runtime\\4.3.0\\runtime.any.system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\runtime.any.system.text.encoding\\4.3.0\\runtime.any.system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",
@@ -69,6 +71,7 @@
     "C:\\Users\\DELL\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.private.uri\\4.3.0\\system.private.uri.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.reflection.metadata\\6.0.1\\system.reflection.metadata.6.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.runtime.caching\\6.0.0\\system.runtime.caching.6.0.0.nupkg.sha512",

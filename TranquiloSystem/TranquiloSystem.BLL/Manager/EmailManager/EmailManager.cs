@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TranquiloSystem.BLL.Dtos.AccountDto;
 using TranquiloSystem.DAL.Data.Models;
+using Org.BouncyCastle.Crypto.Macs;
 
 namespace TranquiloSystem.BLL.Manager.EmailManager
 {
@@ -28,12 +29,12 @@ namespace TranquiloSystem.BLL.Manager.EmailManager
 		{
 			GeneralResponse response = new GeneralResponse();
 			
-
+		
 			try
 			{
 				var message = new MailMessage
 				{
-					From = new MailAddress(_smtpSettings.UserName,"Tranquilo Application"),
+					From = new MailAddress(_smtpSettings.UserName, "Tranquilo Application"),
 					To = { new MailAddress(recipientEmail) },
 					Subject = subject,
 					Body = body,
@@ -42,7 +43,7 @@ namespace TranquiloSystem.BLL.Manager.EmailManager
 
 				using (var smtp = new SmtpClient(_smtpSettings.Host, _smtpSettings.Port))
 				{
-					smtp.Credentials = new NetworkCredential(_smtpSettings.UserName, _smtpSettings.Password);
+					smtp.Credentials = new NetworkCredential(_smtpSettings.UserName,_smtpSettings.Password);
 					smtp.EnableSsl = true;
 					await smtp.SendMailAsync(message);
 				}

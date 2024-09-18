@@ -14,11 +14,8 @@ namespace Tranquilo.DAL.Data.Models
         public int Comments { get; set; } = 0;
         public DateTime CreatedDate { get; set; } = DateTime.Now;
 		public DateTime UpdatedDate { get; set; } = DateTime.Now;
-
 		public DateTime? DeletedDate { get; set; } 
-
 		public string UserId { get; set; }
         public ApplicationUser User { get; set; }
-
     }
 }

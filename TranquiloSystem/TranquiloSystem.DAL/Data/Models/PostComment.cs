@@ -13,14 +13,9 @@ namespace Tranquilo.DAL.Data.Models
         public DateTime CreatedDate { get; set; } = DateTime.Now;
         public DateTime UpdatedDate { get; set; } = DateTime.Now;
 		public DateTime? DeletedDate { get; set; }
-
 		public string UserId { get; set; }
         public ApplicationUser User { get; set; }
-
         public int PostID { get; set; }
         public Post Post { get; set; }
-
-        
-
     }
 }
