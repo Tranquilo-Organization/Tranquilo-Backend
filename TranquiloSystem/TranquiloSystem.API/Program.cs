@@ -8,6 +8,7 @@ using System;
 using System.Text;
 using Tranquilo.DAL.Data.Models;
 using Tranquilo.DAL.Repositories.PostRepo;
+using TranquiloSystem.BLL.AutoMapper;
 using TranquiloSystem.BLL.Manager.AccountManager;
 using TranquiloSystem.BLL.Manager.EmailManager;
 using TranquiloSystem.BLL.Manager.OtpManager;
@@ -90,8 +91,8 @@ builder.Services.AddScoped<IPostManager,PostManager>();
 builder.Services.AddScoped<IPostRepository, PostRepository>();
 
 
-builder.Services.AddAutoMapper(typeof(Program));
-
+//builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddAutoMapper(map => map.AddProfile(new MappingProfile()));
 
 var app = builder.Build();
 

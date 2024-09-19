@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj": {}
+    "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj": {}
   },
   "projects": {
-    "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj": {
+    "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj",
+        "projectUniqueName": "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj",
         "projectName": "TranquiloSystem.DAL",
-        "projectPath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\obj\\",
+        "projectPath": "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj",
+        "packagesPath": "C:\\Users\\Mohamed ElAgizy\\.nuget\\packages\\",
+        "outputPath": "D:\\IEEE\\Tranquilo-Backend\\TranquiloSystem\\TranquiloSystem.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mohamed ElAgizy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -86,12 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x86": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
