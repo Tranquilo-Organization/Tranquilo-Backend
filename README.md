@@ -60,7 +60,7 @@ POST /api/account/verify-otp
 POST /api/account/reset-password
   - Resets a password using the OTP.
 
-2. PostController
+### 2. PostController
 Handles user-generated posts.
 
 GET /api/post 
@@ -78,7 +78,7 @@ DELETE /api/post/{id}
 POST /api/post/vote 
     - Votes on a post.
 
-3. CommentController
+### 3. CommentController
 Manages user comments on posts.
 
 GET /api/comment 
@@ -96,7 +96,7 @@ PATCH /api/comment
 DELETE /api/comment/{id}
     - Deletes a comment by its ID.
 
-4. RoutineController
+### 4. RoutineController
 Handles user routines and associated logic.
 
 GET /api/routine 
@@ -106,7 +106,7 @@ GET /api/routine/{id}
 GET /api/routine/LevelId/{LevelId} 
     - Retrieves routines by difficulty level.
 
-5. ProfileController
+### 5. ProfileController
 Manages user profiles.
 
 GET /api/profile/UserId/{id} 
@@ -120,13 +120,13 @@ PATCH /api/profile/UserLevel/{userId}
 DELETE /api/profile 
     - Deletes a user profile.
 
-## AI Integration
+# AI Integration
 The AI component of the Tranquilo app generates personalized routines and anxiety management suggestions. The backend communicates with this AI module, sending user data to provide relevant recommendations based on GAD parameters.
 
-## Testing
+# Testing
 The Tranquilo backend includes a comprehensive set of tests to ensure reliability.
 
-# Types of Tests:
+## Types of Tests:
 Unit Tests: Verifies individual components, like services and controllers.
 
 Running Tests:
@@ -137,7 +137,7 @@ dotnet test
 ```
 
 
-## Database Overview
+# Database Overview
 The Tranquilo app uses SQL Server as its database. The database stores all user-related data, including profiles, posts, comments, routines, and user activity logs.
 
 ### Key Tables:
