@@ -12,7 +12,7 @@ The project is structured into distinct layers following the Separation of Conce
 - **Tests:** Unit, Integration, and End-to-End tests.
 
 ## Project Structure and Layers
-The Tranquilo backend follows a layered architecture to maintain a clean separation of concerns. Each layer is responsible for a specific part of the application’s logic.
+Tranquilo backend follows a layered architecture to maintain a clean separation of concerns. Each layer is responsible for a specific part of the application’s logic.
 
 ## 1. API Layer
 - Exposes RESTful endpoints for the mobile app to communicate with.
