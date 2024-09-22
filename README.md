@@ -63,50 +63,71 @@ POST /api/account/reset-password
 2. PostController
 Handles user-generated posts.
 
-GET /api/post - Retrieves all posts.
-GET /api/post/{id} - Retrieves a post by its ID.
-GET /api/post/User/{userId} - Retrieves posts by a specific user.
-POST /api/post - Adds a new post.
-PATCH /api/post - Updates an existing post.
-DELETE /api/post/{id} - Deletes a post by its ID.
-POST /api/post/vote - Votes on a post.
+GET /api/post 
+    - Retrieves all posts.
+GET /api/post/{id} 
+    - Retrieves a post by its ID.
+GET /api/post/User/{userId} 
+    - Retrieves posts by a specific user.
+POST /api/post 
+    - Adds a new post.
+PATCH /api/post 
+    - Updates an existing post.
+DELETE /api/post/{id} 
+    - Deletes a post by its ID.
+POST /api/post/vote 
+    - Votes on a post.
 
 3. CommentController
 Manages user comments on posts.
 
-GET /api/comment - Retrieves all comments.
-GET /api/comment/{id} - Retrieves a comment by its ID.
-GET /api/comment/User/{userId} - Retrieves comments made by a specific user.
-GET /api/comment/Post/{postId} - Retrieves comments on a specific post.
-POST /api/comment - Adds a new comment.
-PATCH /api/comment - Updates an existing comment.
-DELETE /api/comment/{id} - Deletes a comment by its ID.
+GET /api/comment 
+    - Retrieves all comments.
+GET /api/comment/{id} 
+    - Retrieves a comment by its ID.
+GET /api/comment/User/{userId} 
+    - Retrieves comments made by a specific user.
+GET /api/comment/Post/{postId} 
+    - Retrieves comments on a specific post.
+POST /api/comment 
+    - Adds a new comment.
+PATCH /api/comment 
+    - Updates an existing comment.
+DELETE /api/comment/{id}
+    - Deletes a comment by its ID.
 
 4. RoutineController
 Handles user routines and associated logic.
 
-GET /api/routine - Retrieves all routines.
-GET /api/routine/{id} - Retrieves a routine by its ID.
-GET /api/routine/LevelId/{LevelId} - Retrieves routines by difficulty level.
+GET /api/routine 
+    - Retrieves all routines.
+GET /api/routine/{id} 
+    - Retrieves a routine by its ID.
+GET /api/routine/LevelId/{LevelId} 
+    - Retrieves routines by difficulty level.
 
 5. ProfileController
 Manages user profiles.
 
-GET /api/profile/UserId/{id} - Retrieves a user profile by user ID.
-GET /api/profile/UserEmail/{email} - Retrieves a user profile by email.
-PUT /api/profile - Updates user profile information.
-PATCH /api/profile/UserLevel/{userId} - Updates user level.
-DELETE /api/profile - Deletes a user profile.
-AI Integration
+GET /api/profile/UserId/{id} 
+    - Retrieves a user profile by user ID.
+GET /api/profile/UserEmail/{email}
+    - Retrieves a user profile by email.
+PUT /api/profile 
+    - Updates user profile information.
+PATCH /api/profile/UserLevel/{userId} 
+    - Updates user level.
+DELETE /api/profile 
+    - Deletes a user profile.
+
+## AI Integration
 The AI component of the Tranquilo app generates personalized routines and anxiety management suggestions. The backend communicates with this AI module, sending user data to provide relevant recommendations based on GAD parameters.
 
-Testing
+## Testing
 The Tranquilo backend includes a comprehensive set of tests to ensure reliability.
 
-Types of Tests:
+# Types of Tests:
 Unit Tests: Verifies individual components, like services and controllers.
-Integration Tests: Ensures different components of the backend work well together.
-End-to-End Tests: Simulates real-world usage and scenarios to ensure the entire system functions correctly.
 
 Running Tests:
 To execute tests, use:
@@ -142,96 +163,29 @@ The connection string to the database can be updated in the appsettings.json fil
 }
 ```
 
+## Database Scheme
+![Database Schema](./Erd/finalErd.PNG)
 
-Development Setup
-Prerequisites:
+### Tables:
+- ***Identity tables.***
+- ***BotConversation.***
+- ***Level.***
+- ***Message.***
+- ***Notification.***
+- ***Post***
+- ***PostComment.***
+- ***Routine.***
+- ***SurveyAnswer***
+- ***SurveyQuestion***
+- ***UserRoutine***
+- ***UserScore***
+
+
+# Development Setup
+## Prerequisites:
 .NET SDK
 SQL Server
-Setup Instructions:
-Clone the repository:
-```bash
-git clone <repository-url>
-```
-Navigate to the project directory:
 
-```bash
-cd TranquiloSystem
-Set up the Database: Modify the connection strings in appsettings.json to point to your local or cloud SQL Server instance.
-```
-Run the application:
-```bash
-dotnet run
-```
-Access the API: The API can be accessed at http://localhost:5000/api. Use Postman or any API client for testing.
-
-# File Structure
-``` TranquiloSystem/
-│
-├── Controllers/
-│   ├── AccountController.cs
-│   ├── PostController.cs
-│   ├── CommentController.cs
-│   ├── ProfileController.cs
-│   ├── RoutineController.cs
-│
-├── Models/
-│   ├── Dtos/
-│   ├── Entities/
-│
-├── Services/
-│   ├── IAccountManager.cs
-│   ├── IPostManager.cs
-│   ├── IPostCommentManager.cs
-│   ├── IProfileManager.cs
-│   ├── IRoutineManager.cs
-│
-├── Data/
-│   ├── ApplicationDbContext.cs
-│   ├── Migrations/
-│
-├── appsettings.json
-├── Program.cs
-├── Startup.cs
-```
-
-
-===============================
-## Overview
-
-TranquiloSystem is a backend system built using ASP.NET Core Web API, designed with a layered architecture to separate concerns and improve maintainability. The system consists of the following layers:
-
-### 1. API Layer
-This layer is responsible for handling HTTP requests and providing endpoints for various operations. 
-
-### 2. Business Logic Layer (BLL)
-This layer contains the core business logic, such as handling the data flow between the API and DAL. Key components include:
-
-- **Managers:** Handles business rules and logic
-- **DTOs (Data Transfer Objects):** Used to transfer data between layers.
-- **AutoMapper Profiles:** Used to map between DTOs and domain models.
-
-### 3. Data Access Layer (DAL)
-This layer manages all interactions with the database, including CRUD operations. 
-
-## Dependencies
-
-### API Layer
-- `Microsoft.AspNetCore.Authentication.JwtBearer` Version 8.0.8
-- `Microsoft.EntityFrameworkCore.Design` Version 8.0.8
-- `Microsoft.IdentityModel.Tokens` Version 8.0.2
-- `Swashbuckle.AspNetCore` Version 6.4.0
-- `System.IdentityModel.Tokens.Jwt` Version 8.0.2
-
-### Business Logic Layer (BLL)
--  `AutoMapper` Version 13.0.1
-
-
-### Data Access Layer (DAL)
-- `Microsoft.AspNetCore.Identity.EntityFrameworkCore` Version 8.0.8
-- `Microsoft.EntityFrameworkCore` Version 8.0.8
-- `Microsoft.EntityFrameworkCore.SqlServer` Version 8.0.8
-- `Microsoft.EntityFrameworkCore.Tools` Version 8.0.8
-  
 ## Installation
 
 1. **Clone the Repo:**
@@ -264,22 +218,72 @@ In the `appsettings.json` file, the following configurations are used:
   "Key": "75d19b579976fcd772a2c502b98fdaa4675f7fbda75f238eb0f0c357c574a4e2"
 }
 ```
-## Database Scheme
-![Database Schema](./Erd/finalErd.PNG)
 
-### Tables:
-- ***Identity tables.***
-- ***BotConversation.***
-- ***Level.***
-- ***Message.***
-- ***Notification.***
-- ***Post***
-- ***PostComment.***
-- ***Routine.***
-- ***SurveyAnswer***
-- ***SurveyQuestion***
-- ***UserRoutine***
-- ***UserScore***
+Navigate to the project directory:
 
-### Current Status
-Currently, the authentication endpoints for user registration and login have been implemented. Future features will be added soon.
+```bash
+cd TranquiloSystem
+Set up the Database: Modify the connection strings in appsettings.json to point to your local or cloud SQL Server instance.
+```
+
+Run the application:
+```bash
+dotnet run
+```
+Access the API: The API can be accessed at http://localhost:5000/api. Use Postman or any API client for testing.
+
+## Dependencies
+
+### API Layer
+- `Microsoft.AspNetCore.Authentication.JwtBearer` Version 8.0.8
+- `Microsoft.EntityFrameworkCore.Design` Version 8.0.8
+- `Microsoft.IdentityModel.Tokens` Version 8.0.2
+- `Swashbuckle.AspNetCore` Version 6.4.0
+- `System.IdentityModel.Tokens.Jwt` Version 8.0.2
+
+### Business Logic Layer (BLL)
+-  `AutoMapper` Version 13.0.1
+
+
+### Data Access Layer (DAL)
+- `Microsoft.AspNetCore.Identity.EntityFrameworkCore` Version 8.0.8
+- `Microsoft.EntityFrameworkCore` Version 8.0.8
+- `Microsoft.EntityFrameworkCore.SqlServer` Version 8.0.8
+- `Microsoft.EntityFrameworkCore.Tools` Version 8.0.8
+
+
+# File Structure
+``` TranquiloSystem/
+│
+├── Controllers/
+│   ├── AccountController.cs
+│   ├── PostController.cs
+│   ├── CommentController.cs
+│   ├── ProfileController.cs
+│   ├── RoutineController.cs
+│
+├── Models/
+│   ├── Dtos/
+│   ├── Entities/
+│
+├── Services/
+│   ├── IAccountManager.cs
+│   ├── IPostManager.cs
+│   ├── IPostCommentManager.cs
+│   ├── IProfileManager.cs
+│   ├── IRoutineManager.cs
+│
+├── Data/
+│   ├── ApplicationDbContext.cs
+│   ├── Migrations/
+│
+├── appsettings.json
+├── Program.cs
+├── Startup.cs
+```
+
+### Contributing
+If you'd like to contribute, please fork the repository and submit a pull request with your changes. Ensure that all tests pass and adhere to the coding guidelines.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for more details.
