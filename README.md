@@ -81,43 +81,43 @@ Handles user-generated posts.
 ### 3. CommentController
 Manages user comments on posts.
 
-GET /api/comment 
+- GET /api/comment 
     - Retrieves all comments.
-GET /api/comment/{id} 
+- GET /api/comment/{id} 
     - Retrieves a comment by its ID.
-GET /api/comment/User/{userId} 
+- GET /api/comment/User/{userId} 
     - Retrieves comments made by a specific user.
-GET /api/comment/Post/{postId} 
+- GET /api/comment/Post/{postId} 
     - Retrieves comments on a specific post.
-POST /api/comment 
+- POST /api/comment 
     - Adds a new comment.
-PATCH /api/comment 
+- PATCH /api/comment 
     - Updates an existing comment.
-DELETE /api/comment/{id}
+- DELETE /api/comment/{id}
     - Deletes a comment by its ID.
 
 ### 4. RoutineController
 Handles user routines and associated logic.
 
-GET /api/routine 
+- GET /api/routine 
     - Retrieves all routines.
-GET /api/routine/{id} 
+- GET /api/routine/{id} 
     - Retrieves a routine by its ID.
-GET /api/routine/LevelId/{LevelId} 
+- GET /api/routine/LevelId/{LevelId} 
     - Retrieves routines by difficulty level.
 
 ### 5. ProfileController
 Manages user profiles.
 
-GET /api/profile/UserId/{id} 
+- GET /api/profile/UserId/{id} 
     - Retrieves a user profile by user ID.
-GET /api/profile/UserEmail/{email}
+- GET /api/profile/UserEmail/{email}
     - Retrieves a user profile by email.
-PUT /api/profile 
+- PUT /api/profile 
     - Updates user profile information.
-PATCH /api/profile/UserLevel/{userId} 
+- PATCH /api/profile/UserLevel/{userId} 
     - Updates user level.
-DELETE /api/profile 
+- DELETE /api/profile 
     - Deletes a user profile.
 
 # AI Integration
