@@ -17,6 +17,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Tranquilo.DAL.Data.Models;
 using TranquiloSystem.BLL.Dtos.AccountDto;
+using TranquiloSystem.BLL.Dtos.GeneralDto;
 using TranquiloSystem.BLL.Dtos.OtpDto;
 using TranquiloSystem.BLL.Dtos.OtpDto.OtpDto;
 using TranquiloSystem.BLL.Manager.EmailManager;
@@ -24,7 +25,7 @@ using TranquiloSystem.BLL.Manager.OtpManager;
 
 namespace TranquiloSystem.BLL.Manager.AccountManager
 {
-	public class AccountManager : IAccountManager
+    public class AccountManager : IAccountManager
 	{
 		private readonly UserManager<ApplicationUser> _userManager;
 		private readonly IConfiguration _configuration;
@@ -41,52 +42,59 @@ namespace TranquiloSystem.BLL.Manager.AccountManager
 			_emailManager = emailManager;
 		}
 
-		public async Task<GeneralResponse> Login(LoginDto loginDto)
+		public async Task<GeneralAccountResponse> Login(LoginDto loginDto)
 		{
-			GeneralResponse generalResponse = new GeneralResponse();
+			GeneralAccountResponse GeneralAccountResponse = new GeneralAccountResponse();
 
 			var user = await _userManager.FindByEmailAsync(loginDto.Email);
-
 			if (user == null || !await _userManager.CheckPasswordAsync(user, loginDto.Password))
 			{
-				generalResponse.IsSucceeded = false;
-				generalResponse.Message = "Email or Password Is Incorrect";
-				return generalResponse;
+				GeneralAccountResponse.IsSucceeded = false;
+				GeneralAccountResponse.Message = "Email or Password Is Incorrect";
+				return GeneralAccountResponse;
 			}
 				
 			var claims = await _userManager.GetClaimsAsync(user);
 
-			generalResponse = GeneralToken(claims);
-			generalResponse.IsSucceeded = true;
-			return generalResponse;
+			GeneralAccountResponse = GeneralToken(claims);
+			GeneralAccountResponse.IsSucceeded = true;
+			GeneralAccountResponse.Email = user.Email;
+			GeneralAccountResponse.Id = user.Id;
+			return GeneralAccountResponse;
 
 		}
 
-		public async Task<GeneralResponse> Register(RegisterDto registerDto)
+		public async Task<GeneralAccountResponse> Register(RegisterDto registerDto)
 		{			
-			GeneralResponse generalResponse = new GeneralResponse();
+			GeneralAccountResponse GeneralAccountResponse = new GeneralAccountResponse();
+
+			if (registerDto.Password != registerDto.ConfirmPassword)
+			{
+				GeneralAccountResponse.Message = "ConfirmPassword and Password do not match.";
+				GeneralAccountResponse.IsSucceeded = false;
+				return GeneralAccountResponse;
+			}
 
 			var emailExists = await _userManager.FindByEmailAsync(registerDto.Email);
 			if (emailExists != null)
 			{
-				generalResponse.Message = "The Email Address Is Already Exists";
-				generalResponse.IsSucceeded = false;
-				return generalResponse;
+				GeneralAccountResponse.Message = "The Email Address Is Already Exists";
+				GeneralAccountResponse.IsSucceeded = false;
+				return GeneralAccountResponse;
 			}
 			
 			
 			ApplicationUser AppUser = new ApplicationUser();
 
-			
 			AppUser.UserName = registerDto.UserName;
 			AppUser.Email = registerDto.Email;
 			IdentityResult identityResult = await _userManager.CreateAsync(AppUser, registerDto.Password);
 
 			if(!identityResult.Succeeded)
 			{
-				generalResponse.Message = string.Join(", ", identityResult.Errors.Select(e => e.Description));
-				generalResponse.IsSucceeded = false;
-				return generalResponse;
+				GeneralAccountResponse.Message = string.Join(", ", identityResult.Errors.Select(e => e.Description));
+				GeneralAccountResponse.IsSucceeded = false;
+				return GeneralAccountResponse;
 			}
 			List<Claim> claims = new List<Claim>();
 			claims.Add(new Claim(ClaimTypes.NameIdentifier, AppUser.Id));
@@ -95,21 +103,23 @@ namespace TranquiloSystem.BLL.Manager.AccountManager
 
 			await _userManager.AddClaimsAsync(AppUser, claims);
 
-			generalResponse = GeneralToken(claims);
-			generalResponse.IsSucceeded = true;
-			return generalResponse;
+			GeneralAccountResponse = GeneralToken(claims);
+			GeneralAccountResponse.IsSucceeded = true;
+			GeneralAccountResponse.Email = AppUser.Email;
+			GeneralAccountResponse.Id = AppUser.Id;
+			return GeneralAccountResponse;
 		}
 
-		public async Task<GeneralResponse> SendOtpForPasswordReset(SendOtpRequestDto dto)
+		public async Task<GeneralAccountResponse> SendOtpForPasswordReset(SendOtpRequestDto dto)
 		{
-			GeneralResponse generalResponse = new GeneralResponse();
+			GeneralAccountResponse GeneralAccountResponse = new GeneralAccountResponse();
 
 			var user = await _userManager.FindByEmailAsync(dto.Email);
 			if (user == null)
 			{
-				generalResponse.IsSucceeded = false;
-				generalResponse.Message = "User not found";
-				return generalResponse;
+				GeneralAccountResponse.IsSucceeded = false;
+				GeneralAccountResponse.Message = "User not found";
+				return GeneralAccountResponse;
 			}
 
 			var otpCode  = await _otpManager.GenerateOtpAsync(dto.Email);
@@ -121,77 +131,76 @@ namespace TranquiloSystem.BLL.Manager.AccountManager
 				return emailResponse; // Return the email error if sending failed
 			}
 			
-			generalResponse.Message = "OTP sent to email successfully.";
-			generalResponse.IsSucceeded = emailResponse.IsSucceeded;
-			return generalResponse;
+			GeneralAccountResponse.Message = "OTP sent successfully.";
+			GeneralAccountResponse.IsSucceeded = emailResponse.IsSucceeded;
+			return GeneralAccountResponse;
 		}
 
-
-		public async Task<GeneralResponse> VerifyOtp(VerifyOtpRequestDto dto)
+		public async Task<GeneralAccountResponse> VerifyOtp(VerifyOtpRequestDto dto)
 		{
-			GeneralResponse generalResponse = new GeneralResponse();
+			GeneralAccountResponse GeneralAccountResponse = new GeneralAccountResponse();
 
 			// Retrieve email from cache using OTP
 			if (!_cache.TryGetValue($"{dto.Email}_Verified", out string storedOtp) || storedOtp != dto.Otp)
 			{
-				generalResponse.IsSucceeded = false;
-				generalResponse.Message = "Invalid or expired OTP";
-				return generalResponse;
+				GeneralAccountResponse.IsSucceeded = false;
+				GeneralAccountResponse.Message = "Invalid or expired OTP";
+				return GeneralAccountResponse;
 			}
 
 			var user = await _userManager.FindByEmailAsync(dto.Email);
 			if (user == null)
 			{
-				generalResponse.IsSucceeded = false;
-				generalResponse.Message = "User not found";
-				return generalResponse;
+				GeneralAccountResponse.IsSucceeded = false;
+				GeneralAccountResponse.Message = "User not found";
+				return GeneralAccountResponse;
 			}
 
 			_cache.Set($"{dto.Email}_Verified", true, TimeSpan.FromMinutes(10));
 
-			generalResponse.IsSucceeded = true;
-			generalResponse.Message = "OTP verified successfully. You can now reset your password.";
-			return generalResponse;
+			GeneralAccountResponse.IsSucceeded = true;
+			GeneralAccountResponse.Message = "OTP verified successfully. You can now reset your password.";
+			return GeneralAccountResponse;
 		}
 
-		public async Task<GeneralResponse> ResetPasswordWithOtp(ResetPasswordRequestDto dto)
+		public async Task<GeneralAccountResponse> ResetPasswordWithOtp(ResetPasswordRequestDto dto)
 		{
-			GeneralResponse generalResponse = new GeneralResponse();
+			GeneralAccountResponse GeneralAccountResponse = new GeneralAccountResponse();
 
 			if (!_cache.TryGetValue($"{dto.Email}_Verified", out bool otpVerified) || !otpVerified)
 			{
-				generalResponse.IsSucceeded = false;
-				generalResponse.Message = "Invalid or expired OTP";
-				return generalResponse;
+				GeneralAccountResponse.IsSucceeded = false;
+				GeneralAccountResponse.Message = "Invalid or expired OTP";
+				return GeneralAccountResponse;
 			}
 
 			var user = await _userManager.FindByEmailAsync(dto.Email);
 			if (user == null)
 			{
-				generalResponse.IsSucceeded = false;
-				generalResponse.Message = "User not found";
-				return generalResponse;
+				GeneralAccountResponse.IsSucceeded = false;
+				GeneralAccountResponse.Message = "User not found";
+				return GeneralAccountResponse;
 			}
 
 			var resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
 			var result = await _userManager.ResetPasswordAsync(user, resetToken, dto.Password);
 			if (!result.Succeeded)
 			{
-				generalResponse.IsSucceeded = false;
-				generalResponse.Message = string.Join(", ", result.Errors.Select(e => e.Description));
-				return generalResponse;
+				GeneralAccountResponse.IsSucceeded = false;
+				GeneralAccountResponse.Message = string.Join(", ", result.Errors.Select(e => e.Description));
+				return GeneralAccountResponse;
 			}
 
 			await _otpManager.RemoveOtpAsync(dto.Email);
 
 			var claims = await _userManager.GetClaimsAsync(user);
-			generalResponse = GeneralToken(claims);
-			generalResponse.IsSucceeded = true;
-			generalResponse.Message = "Password reset successfully";
-			return generalResponse;
+			GeneralAccountResponse = GeneralToken(claims);
+			GeneralAccountResponse.IsSucceeded = true;
+			GeneralAccountResponse.Message = "Password reset successfully";
+			return GeneralAccountResponse;
 		}
 
-		private GeneralResponse GeneralToken(IList<Claim> claims)
+		private GeneralAccountResponse GeneralToken(IList<Claim> claims)
 		{
 			
 			var securityKeyOfString = _configuration.GetSection("Key").Value;
@@ -210,15 +219,11 @@ namespace TranquiloSystem.BLL.Manager.AccountManager
 			JwtSecurityTokenHandler jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
 			var token = jwtSecurityTokenHandler.WriteToken(jwtSecurityToken);
 
-			return new GeneralResponse
+			return new GeneralAccountResponse
 			{
 				Token = token,
 				ExpireDate = expireDate
 			};
 		}
-
-		
-
-		
 	}
 }
