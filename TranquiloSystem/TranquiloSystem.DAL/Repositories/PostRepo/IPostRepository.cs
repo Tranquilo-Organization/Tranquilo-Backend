@@ -7,15 +7,14 @@ using System.Threading.Tasks;
 using Tranquilo.DAL.Data.Models;
 
 namespace Tranquilo.DAL.Repositories.PostRepo
-{
-    public interface IPostRepository
+{	
+	public interface IPostRepository
     {
-        Task<ICollection<Post>> GetAllAsync();
+        Task<IEnumerable<Post>> GetAllAsync();
         Task<Post> GetByIdAsync(int id);
-		Task DeleteAsync(Post post);
-		Task UpdateAsync(Post post);
-		Task AddAsync(Post post);
-		Task SaveChangesAsync();
-
+		Task<IEnumerable<Post>> GetByUserIdAsync(string userId);
+		Task<int?> AddAsync(Post post);
+		Task<bool> DeleteAsync(Post post);
+		Task<bool> UpdateAsync(Post post);		
 	}
 }
