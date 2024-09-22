@@ -208,7 +208,7 @@ In the `appsettings.json` file, the following configurations are used:
   },
   "AllowedHosts": "*",
   "ConnectionStrings": {
-    "DefaultConnection": " /* put your connection string for your databse here & run the command 'Update-Database' in Pckage Manager Console */ "
+    "DefaultConnection": " " //put your connection string for your databse here & run the command 'Update-Database' in Pckage Manager Console 
   },
 
  
