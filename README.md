@@ -1,5 +1,3 @@
-# README for Tranquilo Mobile Application Backend
-
 ## Project Overview
 **Tranquilo** is a mobile application that aims to help users manage anxiety, with a specific focus on Generalized Anxiety Disorder (GAD). The app combines routines, activities, and a social platform to foster a supportive environment where users can post updates, comments, and interact with each other. The backend is built using **C# .NET** and connects with an AI system to generate personalized routines and advice based on user profiles.
 
@@ -16,21 +14,32 @@ The project is structured into distinct layers following the Separation of Conce
 ## Project Structure and Layers
 The Tranquilo backend follows a layered architecture to maintain a clean separation of concerns. Each layer is responsible for a specific part of the application’s logic.
 
-### 1. API Layer
+## 1. API Layer
 - Exposes RESTful endpoints for the mobile app to communicate with.
 - Handles HTTP requests and responses, interacting with the Business Logic layer.
+- Current functionalities include:
+    - **Controllers:** Defines API endpoints and handles HTTP requests. Currently, the AccountController includes endpoints for user login and registration.
+    - **Migrations:** Database migration files for managing schema updates.
 - **Tools:** ASP.NET Core
 
-### 2. Business Logic Layer
+## 2. Business Logic Layer
 - Contains the core business logic for managing profiles, posts, routines, comments, and interactions with the AI module.
+- Key components include:
+    - **Managers:** Handles business rules and logic
+    - **DTOs (Data Transfer Objects):** Used to transfer data between layers.
+    - **AutoMapper Profiles:** Used to map between DTOs and domain models.
 - **Tools:** C# interfaces and services (IProfileManager, IPostManager, etc.)
 
-### 3. Data Access Layer (DAL)
+## 3. Data Access Layer (DAL)
 - Communicates directly with the database using Entity Framework Core.
 - Maps the data models to the relational database and manages database migrations.
+- It includes:
+    - **Models:** Represents the database tables and their relationships.
+    - **DbContext:** Entity Framework Core context to manage database connections and queries.
+    - **Repositories:** Implements data access logic for CRUD operations and querying the database.
 - **Tools:** SQL Server, Entity Framework Core
 
-### 4. AI Module Layer
+## 4. AI Module Layer
 - A separate module that uses AI to generate personalized routines, tips, and suggestions for anxiety management.
 - Integrated with the backend through API calls.
 
@@ -59,17 +68,22 @@ The connection string to the database can be updated in the appsettings.json fil
   "DefaultConnection": "Server=<your-server>;Database=TranquiloDB;Trusted_Connection=True;"
 }
 ```
-API Documentation
+## API Documentation
 The following APIs expose the functionality of the Tranquilo application backend. They handle user profiles, posts, routines, comments, and more.
 
-1. AccountController
+### 1. AccountController
 Handles user registration, login, and password management.
 
-POST /api/account/Register - Registers a new user.
-POST /api/account/Login - Authenticates a user and returns a JWT token.
-POST /api/account/forgot-password - Sends an OTP for password reset.
-POST /api/account/verify-otp - Verifies the OTP for password reset.
-POST /api/account/reset-password - Resets a password using the OTP.
+POST /api/account/Register 
+  - Registers a new user.
+POST /api/account/Login
+   - Authenticates a user and returns a JWT token.
+POST /api/account/forgot-password
+   - Sends an OTP for password reset.
+POST /api/account/verify-otp
+   - Verifies the OTP for password reset.
+POST /api/account/reset-password
+  - Resets a password using the OTP.
 2. PostController
 Handles user-generated posts.
 
@@ -180,10 +194,7 @@ Access the API: The API can be accessed at http://localhost:5000/api. Use Postma
 TranquiloSystem is a backend system built using ASP.NET Core Web API, designed with a layered architecture to separate concerns and improve maintainability. The system consists of the following layers:
 
 ### 1. API Layer
-This layer is responsible for handling HTTP requests and providing endpoints for various operations. Current functionalities include:
-
-- **Controllers:** Defines API endpoints and handles HTTP requests. Currently, the AccountController includes endpoints for user login and registration.
-- **Migrations:** Database migration files for managing schema updates.
+This layer is responsible for handling HTTP requests and providing endpoints for various operations. 
 
 ### 2. Business Logic Layer (BLL)
 This layer contains the core business logic, such as handling the data flow between the API and DAL. Key components include:
@@ -193,20 +204,7 @@ This layer contains the core business logic, such as handling the data flow betw
 - **AutoMapper Profiles:** Used to map between DTOs and domain models.
 
 ### 3. Data Access Layer (DAL)
-This layer manages all interactions with the database, including CRUD operations. It includes:
-
-- **Models:** Represents the database tables and their relationships.
-- **DbContext:** Entity Framework Core context to manage database connections and queries.
-- **Repositories:** Implements data access logic for CRUD operations and querying the database.
-
-## Technologies Used
-
-- **ASP.NET Core Web API** for building the API.
-- **AutoMapper** for object mapping between layers.
-- **Entity Framework Core** for database access and management.
-- **JWT (JSON Web Token)** for secure authentication.
-- **ASP.NET Core Identity** for managing user roles and authentication.
-- **Swashbuckle** for generating API documentation with Swagger.
+This layer manages all interactions with the database, including CRUD operations. 
 
 ## Dependencies
 
