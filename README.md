@@ -49,9 +49,9 @@ The following APIs expose the functionality of the Tranquilo application backend
 ### 1. AccountController
 Handles user registration, login, and password management.
 
-POST /api/account/Register 
+- POST /api/account/Register 
   - Registers a new user.
-POST /api/account/Login
+- POST /api/account/Login
    - Authenticates a user and returns a JWT token.
 POST /api/account/forgot-password
    - Sends an OTP for password reset.
@@ -153,14 +153,6 @@ Migrations are managed via Entity Framework Core. New migrations can be created 
 ```bash
 dotnet ef migrations add <MigrationName>
 dotnet ef database update
-```
-
-The connection string to the database can be updated in the appsettings.json file under the ConnectionStrings section:
-
-```json
-"ConnectionStrings": {
-  "DefaultConnection": "Server=<your-server>;Database=TranquiloDB;Trusted_Connection=True;"
-}
 ```
 
 ## Database Scheme
