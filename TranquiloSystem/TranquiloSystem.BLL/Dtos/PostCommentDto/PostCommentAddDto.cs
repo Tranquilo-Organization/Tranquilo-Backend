@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using Tranquilo.DAL.Data.Models;
 
-namespace TranquiloSystem.BLL.Dtos.PostDto
+namespace TranquiloSystem.BLL.Dtos.PostCommentDto
 {
-    public class PostAddDto
-    {
-		public string PostText { get; set; }
+	public class PostCommentAddDto
+	{
+		public string CommentText { get; set; }
 		public string UserEmail { get; set; }
+		public int PostID { get; set; }
 	}
 }
-

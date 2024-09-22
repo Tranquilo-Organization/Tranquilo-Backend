@@ -5,18 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using Tranquilo.DAL.Data.Models;
 
-namespace TranquiloSystem.BLL.Dtos.PostDto.PostDto
+namespace TranquiloSystem.BLL.Dtos.PostCommentDto
 {
-    public class PostReadDto
+	public class PostCommentReadDto
 	{
 		public int Id { get; set; }
-		public string PostText { get; set; }
+		public string CommentText { get; set; }
 		public int UpVoteCountLength { get; set; }
 		public int DownVoteCountLength { get; set; }
-		public int CommentsCount { get; set; } = 0;
-		public DateTime Date { get; set; }
+		public DateTime Date { get; set; } 
 		public string UserId { get; set; }
 		public string UserName { get; set; }
+		public int PostID { get; set; }
 	}
 }
-
