@@ -63,19 +63,19 @@ POST /api/account/reset-password
 ### 2. PostController
 Handles user-generated posts.
 
-GET /api/post 
+- GET /api/post 
     - Retrieves all posts.
-GET /api/post/{id} 
+- GET /api/post/{id} 
     - Retrieves a post by its ID.
-GET /api/post/User/{userId} 
+- GET /api/post/User/{userId} 
     - Retrieves posts by a specific user.
-POST /api/post 
+- POST /api/post 
     - Adds a new post.
-PATCH /api/post 
+- PATCH /api/post 
     - Updates an existing post.
-DELETE /api/post/{id} 
+- DELETE /api/post/{id} 
     - Deletes a post by its ID.
-POST /api/post/vote 
+- POST /api/post/vote 
     - Votes on a post.
 
 ### 3. CommentController
