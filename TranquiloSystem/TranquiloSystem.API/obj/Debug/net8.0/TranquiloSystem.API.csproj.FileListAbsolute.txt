@@ -157,3 +157,5 @@ D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\Microsoft.Extension
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\StackExchange.Redis.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\Castle.Core.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Debug\net8.0\Moq.dll

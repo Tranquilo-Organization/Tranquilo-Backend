@@ -6,13 +6,13 @@ using System.Net.Mail;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using TranquiloSystem.BLL.Dtos.AccountDto;
 using TranquiloSystem.DAL.Data.Models;
 using Org.BouncyCastle.Crypto.Macs;
+using TranquiloSystem.BLL.Dtos.GeneralDto;
 
 namespace TranquiloSystem.BLL.Manager.EmailManager
 {
-	public class EmailManager : IEmailManager
+    public class EmailManager : IEmailManager
 	{		
 		private readonly SmtpSettings _smtpSettings;
 
@@ -25,9 +25,9 @@ namespace TranquiloSystem.BLL.Manager.EmailManager
 			Console.WriteLine($"Password: {_smtpSettings.Password}");
 		}
 
-		public async Task<GeneralResponse> SendEmailAsync(string recipientEmail, string subject, string body)
+		public async Task<GeneralAccountResponse> SendEmailAsync(string recipientEmail, string subject, string body)
 		{
-			GeneralResponse response = new GeneralResponse();
+			GeneralAccountResponse response = new GeneralAccountResponse();
 			
 		
 			try

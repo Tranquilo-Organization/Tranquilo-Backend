@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tranquilo.DAL.Data.Models;
+using TranquiloSystem.DAL.Data.Enums;
 using TranquiloSystem.DAL.Data.Models;
 
 namespace TranquiloSystem.DAL.Data.DbHelper
@@ -16,7 +17,8 @@ namespace TranquiloSystem.DAL.Data.DbHelper
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-        }
+		}
+
         public DbSet<Level> Levels { get; set; }
         public DbSet<Routine> Routines { get; set; }
         public DbSet<UserRoutine> UserRoutines { get; set; }

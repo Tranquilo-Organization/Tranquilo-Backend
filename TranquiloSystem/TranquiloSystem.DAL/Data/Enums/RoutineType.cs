@@ -9,8 +9,7 @@ namespace TranquiloSystem.DAL.Data.Enums
     public enum RoutineType
     {
         Morning,
-        Afternoon,
-        Evening,
+        Day,
         Night
     }
 }

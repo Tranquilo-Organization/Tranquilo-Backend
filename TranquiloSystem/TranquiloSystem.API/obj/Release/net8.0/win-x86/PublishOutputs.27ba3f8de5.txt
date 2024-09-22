@@ -8,6 +8,7 @@ D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Ou
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Out\Azure.Core.dll
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Out\Azure.Identity.dll
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Out\BouncyCastle.Cryptography.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Out\Castle.Core.dll
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Out\MailKit.dll
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -37,6 +38,7 @@ D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Ou
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.SqlServer.Server.dll
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Out\MimeKit.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Out\Moq.dll
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Out\Pipelines.Sockets.Unofficial.dll
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Out\StackExchange.Redis.dll
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll

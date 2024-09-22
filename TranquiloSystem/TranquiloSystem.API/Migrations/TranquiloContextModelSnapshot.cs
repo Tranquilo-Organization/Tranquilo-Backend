@@ -34,7 +34,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UsersId");
 
-                    b.ToTable("ApplicationUserRoutine", (string)null);
+                    b.ToTable("ApplicationUserRoutine");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -189,6 +189,12 @@ namespace TranquiloSystem.API.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<bool?>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int?>("LevelId")
+                        .HasColumnType("int");
+
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
@@ -215,6 +221,9 @@ namespace TranquiloSystem.API.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("ProfilePicture")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
@@ -226,6 +235,8 @@ namespace TranquiloSystem.API.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("LevelId");
 
                     b.HasIndex("NormalizedEmail")
                         .HasDatabaseName("EmailIndex");
@@ -253,7 +264,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("BotConversations", (string)null);
+                    b.ToTable("BotConversations");
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.Level", b =>
@@ -279,7 +290,33 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Levels", (string)null);
+                    b.ToTable("Levels");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Routines for mild anxiety",
+                            MaxScore = 20,
+                            MinScore = 0,
+                            Name = "Mild Anxiety"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Routines for moderate anxiety",
+                            MaxScore = 40,
+                            MinScore = 21,
+                            Name = "Moderate Anxiety"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Routines for severe anxiety",
+                            MaxScore = 60,
+                            MinScore = 41,
+                            Name = "Severe Anxiety"
+                        });
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.Post", b =>
@@ -290,24 +327,20 @@ namespace TranquiloSystem.API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Comments")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
 
-                    b.Property<string>("Content")
+                    b.Property<string>("DownVoteCount")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("PostText")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("DeletedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("Like")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("UpVoteCount")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserId")
                         .IsRequired()
@@ -317,7 +350,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Posts", (string)null);
+                    b.ToTable("Posts");
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.PostComment", b =>
@@ -328,21 +361,23 @@ namespace TranquiloSystem.API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Content")
+                    b.Property<string>("CommentText")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("CreatedDate")
+                    b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("DownVoteCount")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PostID")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("UpVoteCount")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserId")
                         .IsRequired()
@@ -354,7 +389,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("PostComments", (string)null);
+                    b.ToTable("PostComments");
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.Routine", b =>
@@ -380,14 +415,98 @@ namespace TranquiloSystem.API.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Type")
-                        .HasColumnType("int");
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("LevelId");
 
-                    b.ToTable("Routines", (string)null);
+                    b.ToTable("Routines");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "A calming morning routine",
+                            LevelId = 1,
+                            Name = "Deep Breathing & Positive Affirmations",
+                            Steps = "1. Upon waking up, sit in a comfortable position.\n2. Inhale deeply for 4 seconds, hold for 7 seconds, and exhale for 8 seconds (repeat for 5 minutes).\n3. Say aloud 3 positive affirmations (e.g., 'I am calm and in control of my day').\n4. Stretch your arms and body for 2 minutes.\n5. Drink a glass of water.",
+                            Type = "Morning"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "A refreshing day routine",
+                            LevelId = 1,
+                            Name = "Short Walk & Gratitude Journal",
+                            Steps = "1. Take a 10-minute walk during a break (preferably in nature or outside).\n2. Focus on your breathing as you walk, counting each step as a relaxation technique.\n3. After your walk, take 5 minutes to write in your gratitude journal.\n4. List 3 things you are thankful for.",
+                            Type = "Day"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "A relaxing night routine",
+                            LevelId = 1,
+                            Name = "Meditation",
+                            Steps = "1. Before going to bed, find a quiet place.\n2. Sit or lie down comfortably.\n3. Close your eyes and practice a 10-minute guided meditation (can use apps like Calm or Headspace).\n4. Focus on letting go of the day's worries.",
+                            Type = "Night"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Description = "A comprehensive morning routine",
+                            LevelId = 2,
+                            Name = "Morning Stretch & Mindful Breathing",
+                            Steps = "1. Start the day with a 10-minute full-body stretch.\n2. Follow with mindful breathing (inhale for 5 seconds, hold for 5 seconds, exhale for 5 seconds).\n3. Write a to-do list with small, achievable tasks for the day.",
+                            Type = "Morning"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Description = "Midday routine for grounding",
+                            LevelId = 2,
+                            Name = "Breathing & Grounding Exercises",
+                            Steps = "1. During the day, take 5-minute breaks every 2 hours to do grounding exercises.\n2. Practice the 5-4-3-2-1 technique (name 5 things you can see, 4 things you can touch, 3 things you can hear, 2 things you can smell, 1 thing you can taste).\n3. Pair this with slow breathing exercises (inhale for 4 seconds, exhale for 6 seconds).",
+                            Type = "Day"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Description = "A calming night routine",
+                            LevelId = 2,
+                            Name = "Journaling & Relaxation",
+                            Steps = "1. Before bed, write down your thoughts and worries in a journal.\n2. Focus on any recurring thoughts or anxiety triggers.\n3. Practice progressive muscle relaxation for 15 minutes (tense each muscle group for 5 seconds, then relax).\n4. Turn off all electronics 30 minutes before bed.",
+                            Type = "Night"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Description = "A grounding morning routine",
+                            LevelId = 3,
+                            Name = "Grounding & Emotional Check-in",
+                            Steps = "1. Upon waking, do a 5-minute grounding exercise (focus on the present moment, noting your surroundings).\n2. Emotionally check-in with yourself. Identify and label any anxious thoughts.\n3. Practice slow, deep breathing for 10 minutes.",
+                            Type = "Morning"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Description = "A structured day routine",
+                            LevelId = 3,
+                            Name = "Structured Activity",
+                            Steps = "1. Break your day into small, manageable chunks of activity (e.g., work for 30 minutes, take a 5-minute break).\n2. During breaks, practice slow, deep breathing or grounding exercises.\n3. Focus on completing 2-3 key tasks rather than overwhelming yourself with a long list.",
+                            Type = "Day"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Description = "A restful night routine",
+                            LevelId = 3,
+                            Name = "Guided Imagery & Sleep Preparation",
+                            Steps = "1. Before bed, spend 10-15 minutes listening to a guided imagery recording (visualize a calm, safe place).\n2. Write down any lingering thoughts or worries in a journal.\n3. Do 10 minutes of deep breathing or muscle relaxation exercises.\n4. Keep electronics away and set the mood for sleep with dim lights or calming music.",
+                            Type = "Night"
+                        });
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.SurveyAnswer", b =>
@@ -415,7 +534,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("SurveyAnswers", (string)null);
+                    b.ToTable("SurveyAnswers");
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.SurveyQuestion", b =>
@@ -432,7 +551,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SurveyQuestions", (string)null);
+                    b.ToTable("SurveyQuestions");
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.UserRoutine", b =>
@@ -465,7 +584,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("UserRoutines", (string)null);
+                    b.ToTable("UserRoutines");
                 });
 
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.UserScore", b =>
@@ -495,7 +614,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("UserScores", (string)null);
+                    b.ToTable("UserScores");
                 });
 
             modelBuilder.Entity("TranquiloSystem.DAL.Data.Models.Message", b =>
@@ -523,7 +642,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("BotConversationId");
 
-                    b.ToTable("Messages", (string)null);
+                    b.ToTable("Messages");
                 });
 
             modelBuilder.Entity("TranquiloSystem.DAL.Data.Models.Notification", b =>
@@ -552,7 +671,7 @@ namespace TranquiloSystem.API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Notifications", (string)null);
+                    b.ToTable("Notifications");
                 });
 
             modelBuilder.Entity("ApplicationUserRoutine", b =>
@@ -621,6 +740,15 @@ namespace TranquiloSystem.API.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Tranquilo.DAL.Data.Models.ApplicationUser", b =>
+                {
+                    b.HasOne("Tranquilo.DAL.Data.Models.Level", "Level")
+                        .WithMany()
+                        .HasForeignKey("LevelId");
+
+                    b.Navigation("Level");
+                });
+
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.BotConversation", b =>
                 {
                     b.HasOne("Tranquilo.DAL.Data.Models.ApplicationUser", "User")
@@ -644,7 +772,7 @@ namespace TranquiloSystem.API.Migrations
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.PostComment", b =>
                 {
                     b.HasOne("Tranquilo.DAL.Data.Models.Post", "Post")
-                        .WithMany()
+                        .WithMany("PostComments")
                         .HasForeignKey("PostID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -761,6 +889,11 @@ namespace TranquiloSystem.API.Migrations
             modelBuilder.Entity("Tranquilo.DAL.Data.Models.Level", b =>
                 {
                     b.Navigation("Routines");
+                });
+
+            modelBuilder.Entity("Tranquilo.DAL.Data.Models.Post", b =>
+                {
+                    b.Navigation("PostComments");
                 });
 #pragma warning restore 612, 618
         }

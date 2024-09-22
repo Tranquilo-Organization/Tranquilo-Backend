@@ -146,3 +146,5 @@ D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\refint\Tr
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\TranquiloSystem.API.pdb
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\TranquiloSystem.API.genruntimeconfig.cache
 D:\IEEE\TranquiloSystem\TranquiloSystem.API\obj\Release\net8.0\win-x86\ref\TranquiloSystem.API.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Release\net8.0\win-x86\Castle.Core.dll
+D:\IEEE\TranquiloSystem\TranquiloSystem.API\bin\Release\net8.0\win-x86\Moq.dll
