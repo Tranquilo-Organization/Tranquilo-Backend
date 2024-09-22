@@ -192,6 +192,8 @@ SQL Server
    dotnet restore
 
 ## Configuration
+// Create "appsettings.json" file under the folder "TranquiloSystem.Api" and put these info in it.
+// or Directly use that file from GoogleDrive (Hogwarts Tech)
 
 In the `appsettings.json` file, the following configurations are used:
  
@@ -205,7 +207,7 @@ In the `appsettings.json` file, the following configurations are used:
   },
   "AllowedHosts": "*",
   "ConnectionStrings": {
-    "DefaultConnection": "" //put your connection string for your databse here 
+    "DefaultConnection": "" //put your connection string for your databse here & run the command 'Update-Database' in Pckage Manager Console
   },
 
  
