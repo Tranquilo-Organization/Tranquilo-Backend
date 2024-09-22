@@ -43,31 +43,6 @@ The Tranquilo backend follows a layered architecture to maintain a clean separat
 - A separate module that uses AI to generate personalized routines, tips, and suggestions for anxiety management.
 - Integrated with the backend through API calls.
 
-## Database Overview
-The Tranquilo app uses SQL Server as its database. The database stores all user-related data, including profiles, posts, comments, routines, and user activity logs.
-
-### Key Tables:
-- **Users:** Stores user profiles, authentication details, and user-level information.
-- **Posts:** Contains user-generated content such as posts and associated data.
-- **Comments:** Stores user comments on posts.
-- **Routines:** Houses different routines, which can be customized based on user preferences.
-- **Votes:** Stores voting data for posts, enabling a voting mechanism for feedback on posts.
-- **Notifications:** Contains notifications sent to users for important updates or reminders.
-
-### Database Migrations:
-Migrations are managed via Entity Framework Core. New migrations can be created and applied as follows:
-```bash
-dotnet ef migrations add <MigrationName>
-dotnet ef database update
-```
-
-The connection string to the database can be updated in the appsettings.json file under the ConnectionStrings section:
-
-```json
-"ConnectionStrings": {
-  "DefaultConnection": "Server=<your-server>;Database=TranquiloDB;Trusted_Connection=True;"
-}
-```
 ## API Documentation
 The following APIs expose the functionality of the Tranquilo application backend. They handle user profiles, posts, routines, comments, and more.
 
@@ -84,6 +59,7 @@ POST /api/account/verify-otp
    - Verifies the OTP for password reset.
 POST /api/account/reset-password
   - Resets a password using the OTP.
+
 2. PostController
 Handles user-generated posts.
 
@@ -94,6 +70,7 @@ POST /api/post - Adds a new post.
 PATCH /api/post - Updates an existing post.
 DELETE /api/post/{id} - Deletes a post by its ID.
 POST /api/post/vote - Votes on a post.
+
 3. CommentController
 Manages user comments on posts.
 
@@ -104,12 +81,14 @@ GET /api/comment/Post/{postId} - Retrieves comments on a specific post.
 POST /api/comment - Adds a new comment.
 PATCH /api/comment - Updates an existing comment.
 DELETE /api/comment/{id} - Deletes a comment by its ID.
+
 4. RoutineController
 Handles user routines and associated logic.
 
 GET /api/routine - Retrieves all routines.
 GET /api/routine/{id} - Retrieves a routine by its ID.
 GET /api/routine/LevelId/{LevelId} - Retrieves routines by difficulty level.
+
 5. ProfileController
 Manages user profiles.
 
@@ -135,6 +114,34 @@ To execute tests, use:
 ```bash
 dotnet test
 ```
+
+
+## Database Overview
+The Tranquilo app uses SQL Server as its database. The database stores all user-related data, including profiles, posts, comments, routines, and user activity logs.
+
+### Key Tables:
+- **Users:** Stores user profiles, authentication details, and user-level information.
+- **Posts:** Contains user-generated content such as posts and associated data.
+- **Comments:** Stores user comments on posts.
+- **Routines:** Houses different routines, which can be customized based on user preferences.
+- **Votes:** Stores voting data for posts, enabling a voting mechanism for feedback on posts.
+- **Notifications:** Contains notifications sent to users for important updates or reminders.
+
+### Database Migrations:
+Migrations are managed via Entity Framework Core. New migrations can be created and applied as follows:
+```bash
+dotnet ef migrations add <MigrationName>
+dotnet ef database update
+```
+
+The connection string to the database can be updated in the appsettings.json file under the ConnectionStrings section:
+
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "Server=<your-server>;Database=TranquiloDB;Trusted_Connection=True;"
+}
+```
+
 
 Development Setup
 Prerequisites:
