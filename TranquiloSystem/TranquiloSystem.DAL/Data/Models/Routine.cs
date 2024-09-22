@@ -14,7 +14,7 @@ namespace Tranquilo.DAL.Data.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public string Steps { get; set; }
-        public RoutineType Type { get; set; } //morning,...
+        public string Type { get; set; } //morning,...
         public List<ApplicationUser> Users { get; set; }
 
         [ForeignKey(nameof(Level))]

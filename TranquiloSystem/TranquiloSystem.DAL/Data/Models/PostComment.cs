@@ -6,16 +6,19 @@ using System.Threading.Tasks;
 
 namespace Tranquilo.DAL.Data.Models
 {
-    public class PostComment
-    {
-        public int Id { get; set; }
-        public string Content { get; set; }
-        public DateTime CreatedDate { get; set; } = DateTime.Now;
-        public DateTime UpdatedDate { get; set; } = DateTime.Now;
-		public DateTime? DeletedDate { get; set; }
+	public class PostComment
+	{
+		public int Id { get; set; }
+		public string CommentText { get; set; }
+		public List<string> UpVoteCount { get; set; } = new List<string>();
+		public int UpVoteCountLength => UpVoteCount?.Count ?? 0;
+		public List<string> DownVoteCount { get; set; } = new List<string>();
+		public int DownVoteCountLength => DownVoteCount?.Count ?? 0;
+
+		public DateTime Date { get; set; } = DateTime.Now;
 		public string UserId { get; set; }
-        public ApplicationUser User { get; set; }
-        public int PostID { get; set; }
-        public Post Post { get; set; }
-    }
+		public ApplicationUser User { get; set; }
+		public int PostID { get; set; }
+		public Post Post { get; set; }
+	}
 }

@@ -8,14 +8,15 @@ namespace Tranquilo.DAL.Data.Models
 {
     public class Post
     {
-        public int Id { get; set; }
-        public string Content { get; set; }
-        public int Like { get; set; } = 0;
-        public int Comments { get; set; } = 0;
-        public DateTime CreatedDate { get; set; } = DateTime.Now;
-		public DateTime UpdatedDate { get; set; } = DateTime.Now;
-		public DateTime? DeletedDate { get; set; } 
+		public int Id { get; set; }
+		public string PostText { get; set; }
+		public List<string> UpVoteCount { get; set; } = new List<string>();
+		public int UpVoteCountLength => UpVoteCount?.Count ?? 0; 
+		public List<string> DownVoteCount { get; set; } = new List<string>();
+		public int DownVoteCountLength => DownVoteCount?.Count ?? 0;
+		public DateTime Date { get; set; } = DateTime.Now;
 		public string UserId { get; set; }
-        public ApplicationUser User { get; set; }
-    }
+		public ApplicationUser User { get; set; }
+		public List<PostComment> PostComments { get; set; }
+	}
 }
