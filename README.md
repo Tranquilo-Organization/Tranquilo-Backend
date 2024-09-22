@@ -194,7 +194,7 @@ SQL Server
 ## Configuration
 // Create "appsettings.json" file under the folder "TranquiloSystem.Api" and put these info in it.
 
-// or Directly use that file from GoogleDrive (Hogwarts Tech)
+// or Directly use that file from GoogleDrive or Notion (Hogwarts Tech)
 
 In the `appsettings.json` file, the following configurations are used:
  
