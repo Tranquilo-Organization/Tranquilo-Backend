@@ -14,7 +14,6 @@ namespace TranquiloSystem.API.Controllers
 	public class AccountController : ControllerBase
 	{
 		private readonly IAccountManager _accountManager;
-
         public AccountController(IAccountManager accountManager)
         {
             _accountManager = accountManager;
@@ -23,14 +22,14 @@ namespace TranquiloSystem.API.Controllers
 		[HttpPost("Register")]
 		public async Task<IActionResult> Register([FromBody] RegisterDto registerDto)
 		{
-			if(ModelState.IsValid)
+			if (ModelState.IsValid)
 			{
 				var result = await _accountManager.Register(registerDto);
 				if (result.IsSucceeded == false)
 				{
 					return BadRequest(new { result.Message , StatusCode = 400 });
 				}
-				return Ok(new { result.Token, result.ExpireDate, StatusCode = 200 });
+				return Ok(new { result.Token, result.ExpireDate, result.Email , result.Id,StatusCode = 200 });
 			}
 			return BadRequest(new {ModelState, StatusCode = 400 });
 		}
@@ -43,7 +42,7 @@ namespace TranquiloSystem.API.Controllers
 			{
 				return Unauthorized(new { result.Message, StatusCode = 401 });
 			}
-			return Ok(new {result.Token, result.ExpireDate , StatusCode = 200});
+			return Ok(new {result.Token, result.ExpireDate, result.Email, result.Id, StatusCode = 200});
 		}
 
 		[HttpPost("forgot-password")]
