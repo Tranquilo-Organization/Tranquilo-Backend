@@ -205,9 +205,10 @@ In the `appsettings.json` file, the following configurations are used:
   },
   "AllowedHosts": "*",
   "ConnectionStrings": {
-    "DefaultConnection": "Data Source=(localdb)\\ProjectModels;Initial Catalog=Tranquilo;Integrated Security=True"
+    "DefaultConnection": "" //put your connection string for your databse here 
   },
-  "Key": "75d19b579976fcd772a2c502b98fdaa4675f7fbda75f238eb0f0c357c574a4e2"
+
+ 
 }
 ```
 
