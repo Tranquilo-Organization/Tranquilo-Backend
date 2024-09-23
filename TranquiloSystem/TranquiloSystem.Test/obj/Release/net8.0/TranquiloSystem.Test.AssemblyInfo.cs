@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranquiloSystem.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08c5002d2df76fb5d72f0800c8c1346f72fb9de7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed2fce748f83319750a814af39ecb065278d91de")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranquiloSystem.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranquiloSystem.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
