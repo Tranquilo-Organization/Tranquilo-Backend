@@ -143,14 +143,14 @@ namespace TranquiloSystem.BLL.Manager.ProfileManager
 
 		}
 
-		public async Task<GeneralResponseDto> DeleteAsync(string id)
+		public async Task<GeneralResponseDto> DeleteAsync(string email)
 		{
-			var user = await _profileRepository.GetByIdAsync(id);
+			var user = await _profileRepository.GetByEmailAsync(email);
 			if (user == null)
 			{
 				return new GeneralResponseDto
 				{
-					Message = "No user with this Id",
+					Message = "No user with this email",
 					IsSucceeded = false,
 					StatusCode = 404
 				};

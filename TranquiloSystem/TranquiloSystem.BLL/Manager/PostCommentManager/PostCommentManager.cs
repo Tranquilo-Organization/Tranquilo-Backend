@@ -134,6 +134,7 @@ namespace TranquiloSystem.BLL.Manager.PostCommentManager
 				StatusCode = 200
 			};
 		}
+
 		public async Task<GeneralResponseDto> AddAsync(PostCommentAddDto postCommentAddDto)
 		{
 			var user = await _userManager.FindByEmailAsync(postCommentAddDto.UserEmail);
@@ -185,7 +186,7 @@ namespace TranquiloSystem.BLL.Manager.PostCommentManager
 				IsSucceeded = true,
 				Model = commentId,
 				Message = "Your comment has been added successfully.",
-				StatusCode = 201, //created
+				StatusCode = 201, //ok
 				Notifcation = notificatioMessage,
 				Object = user.ProfilePicture
 			};

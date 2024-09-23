@@ -15,7 +15,7 @@ namespace TranquiloSystem.BLL.Manager.ProfileManager
 		Task<GeneralResponseDto> GetByEmailAsync(string email);
 		Task<GeneralResponseDto> UpdateAsync(ProfileUpdateDto profileUpdateDto);
 		Task<GeneralResponseDto> UpdateUserLevelAsync(string UserId,int levelId);
-		Task<GeneralResponseDto> DeleteAsync(string id);
+		Task<GeneralResponseDto> DeleteAsync(string email);
 
 	}
 }

@@ -67,8 +67,12 @@ namespace TranquiloSystem.API.Controllers
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> AddPost(PostCommentAddDto postCommentAddDto)
+		public async Task<IActionResult> AddComment(PostCommentAddDto postCommentAddDto)
 		{
+			if (postCommentAddDto == null || string.IsNullOrEmpty(postCommentAddDto.CommentText))
+			{
+				return BadRequest("Invalid input");
+			}
 			if (!ModelState.IsValid)
 			{
 				return BadRequest(new { ModelState, StatusCode = 400 });
@@ -79,13 +83,16 @@ namespace TranquiloSystem.API.Controllers
 				return BadRequest(new { result.Message, result.StatusCode });
 			}
 
-
 			return Ok(new {CommentId = result.Model, result.Message, result.Notifcation, ProfilePicture = result.Object, result.StatusCode});
 		}
 
 		[HttpPatch]
-		public async Task<IActionResult> UpdatePost(PostCommentUpdateDto postCommentUpdateDto)
+		public async Task<IActionResult> UpdateComment(PostCommentUpdateDto postCommentUpdateDto)
 		{
+			if (postCommentUpdateDto == null || string.IsNullOrEmpty(postCommentUpdateDto.CommentText))
+			{
+				return BadRequest("Invalid input");
+			}
 			if (!ModelState.IsValid)
 			{
 				return BadRequest(new { ModelState, StatusCode = 400 });

@@ -60,6 +60,7 @@ namespace TranquiloSystem.BLL.Manager.AccountManager
 			GeneralAccountResponse.IsSucceeded = true;
 			GeneralAccountResponse.Email = user.Email;
 			GeneralAccountResponse.Id = user.Id;
+			GeneralAccountResponse.UserName = user.UserName;
 			return GeneralAccountResponse;
 
 		}
@@ -107,6 +108,7 @@ namespace TranquiloSystem.BLL.Manager.AccountManager
 			GeneralAccountResponse.IsSucceeded = true;
 			GeneralAccountResponse.Email = AppUser.Email;
 			GeneralAccountResponse.Id = AppUser.Id;
+			GeneralAccountResponse.UserName = AppUser.UserName;
 			return GeneralAccountResponse;
 		}
 

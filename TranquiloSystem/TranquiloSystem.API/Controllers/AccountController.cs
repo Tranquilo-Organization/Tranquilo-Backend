@@ -29,7 +29,7 @@ namespace TranquiloSystem.API.Controllers
 				{
 					return BadRequest(new { result.Message , StatusCode = 400 });
 				}
-				return Ok(new { result.Token, result.ExpireDate, result.Email , result.Id,StatusCode = 200 });
+				return Ok(new { result.Token, result.ExpireDate, result.Email, result.UserName, result.Id,StatusCode = 200 });
 			}
 			return BadRequest(new {ModelState, StatusCode = 400 });
 		}
@@ -42,7 +42,7 @@ namespace TranquiloSystem.API.Controllers
 			{
 				return Unauthorized(new { result.Message, StatusCode = 401 });
 			}
-			return Ok(new {result.Token, result.ExpireDate, result.Email, result.Id, StatusCode = 200});
+			return Ok(new {result.Token, result.ExpireDate, result.Email, result.UserName, result.Id, StatusCode = 200});
 		}
 
 		[HttpPost("forgot-password")]

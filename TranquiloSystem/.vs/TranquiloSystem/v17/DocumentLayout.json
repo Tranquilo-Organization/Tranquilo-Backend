@@ -3,91 +3,44 @@
   "WorkspaceRootPath": "D:\\IEEE\\TranquiloSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|solutionrelative:tranquilosystem.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.test\\routinetest\\routinemanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|solutionrelative:tranquilosystem.test\\routinetest\\routinemanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|solutionrelative:tranquilosystem.api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.test\\routinetest\\routinecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|solutionrelative:tranquilosystem.test\\routinetest\\routinecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.test\\profiletest\\profilecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|solutionrelative:tranquilosystem.test\\profiletest\\profilecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.test\\profiletest\\profilemanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|solutionrelative:tranquilosystem.test\\profiletest\\profilemanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.test\\accounttest\\accountmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|solutionrelative:tranquilosystem.test\\accounttest\\accountmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.test\\accounttest\\accountcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|solutionrelative:tranquilosystem.test\\accounttest\\accountcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.test\\tranquilosystem.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|solutionrelative:tranquilosystem.test\\tranquilosystem.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.api\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|solutionrelative:tranquilosystem.api\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\manager\\postcommentmanager\\postcommentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\manager\\postcommentmanager\\postcommentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\dtos\\postcommentdto\\postcommentreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\dtos\\postcommentdto\\postcommentreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\dtos\\postcommentdto\\postcommentadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\dtos\\postcommentdto\\postcommentadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\manager\\postmanager\\postmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\manager\\postmanager\\postmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\dtos\\postdto\\postadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\dtos\\postdto\\postadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.test\\accountcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|solutionrelative:tranquilosystem.test\\accountcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.test\\profilemanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F05BCADF-490C-4697-AEB6-DEDA6636D20E}|TranquiloSystem.Test\\TranquiloSystem.Test.csproj|solutionrelative:tranquilosystem.test\\profilemanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\manager\\accountmanager\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\manager\\accountmanager\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\manager\\profilemanager\\profilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\manager\\profilemanager\\profilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\manager\\profilemanager\\iprofilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\manager\\profilemanager\\iprofilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.dal\\repositories\\profilerepo\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B1EE4ED-0205-4F66-A530-52C8619B42B2}|TranquiloSystem.DAL\\TranquiloSystem.DAL.csproj|solutionrelative:tranquilosystem.dal\\repositories\\profilerepo\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|solutionrelative:tranquilosystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\AppData\\Local\\SourceServer\\f133c424bb3f9866770e01a39dd1b051a926a6ac04778a0d7b52b9568bda0699\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.api\\controllers\\routinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|solutionrelative:tranquilosystem.api\\controllers\\routinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\dtos\\generaldto\\generalresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\dtos\\generaldto\\generalresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9191DCAE-2E6F-437B-9386-705598993FC1}|TranquiloSystem.API\\TranquiloSystem.API.csproj|solutionrelative:tranquilosystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\manager\\notificationmanager\\notificationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\manager\\notificationmanager\\notificationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|d:\\ieee\\tranquilosystem\\tranquilosystem.bll\\manager\\notificationmanager\\inotificationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F06279-8A72-4987-B8EE-13C4AB3684A3}|TranquiloSystem.BLL\\TranquiloSystem.BLL.csproj|solutionrelative:tranquilosystem.bll\\manager\\notificationmanager\\inotificationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -97,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -105,233 +58,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PostManager.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\PostManager\\PostManager.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\PostManager\\PostManager.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\PostManager\\PostManager.cs",
-              "RelativeToolTip": "TranquiloSystem.BLL\\Manager\\PostManager\\PostManager.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAABzvYAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "RoutineControllerTests.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\RoutineTest\\RoutineControllerTests.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.Test\\RoutineTest\\RoutineControllerTests.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\RoutineTest\\RoutineControllerTests.cs",
+              "RelativeToolTip": "TranquiloSystem.Test\\RoutineTest\\RoutineControllerTests.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAywD4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T19:40:43.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PostAddDto.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Dtos\\PostDto\\PostAddDto.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Dtos\\PostDto\\PostAddDto.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Dtos\\PostDto\\PostAddDto.cs",
-              "RelativeToolTip": "TranquiloSystem.BLL\\Dtos\\PostDto\\PostAddDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T05:15:05.337Z",
+              "WhenOpened": "2024-09-22T23:19:34.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PostCommentManager.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\PostCommentManager\\PostCommentManager.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\PostCommentManager\\PostCommentManager.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\PostCommentManager\\PostCommentManager.cs",
-              "RelativeToolTip": "TranquiloSystem.BLL\\Manager\\PostCommentManager\\PostCommentManager.cs",
-              "ViewState": "AQIAAJMAAAAAxszMzMwYwLMAAAAEAAAA",
+              "Title": "ProfileManagerTests.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\Profiletest\\ProfileManagerTests.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.Test\\Profiletest\\ProfileManagerTests.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\Profiletest\\ProfileManagerTests.cs",
+              "RelativeToolTip": "TranquiloSystem.Test\\Profiletest\\ProfileManagerTests.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAIwJ4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T19:15:50.775Z",
+              "WhenOpened": "2024-09-22T23:19:14.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.API\\Controllers\\ProfileController.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "TranquiloSystem.API\\Controllers\\ProfileController.cs",
-              "ViewState": "AQIAAAgAAAAAnZmZmZktwBUAAAAAAAAA",
+              "Title": "ProfileControllerTests.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\Profiletest\\ProfileControllerTests.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.Test\\Profiletest\\ProfileControllerTests.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\Profiletest\\ProfileControllerTests.cs",
+              "RelativeToolTip": "TranquiloSystem.Test\\Profiletest\\ProfileControllerTests.cs",
+              "ViewState": "AQIAAMsAAAAAAAAAAAAIwOMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T19:47:10.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CommentController.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\CommentController.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.API\\Controllers\\CommentController.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\CommentController.cs",
-              "RelativeToolTip": "TranquiloSystem.API\\Controllers\\CommentController.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAuwFMAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T19:06:46.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.API\\Controllers\\PostController.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\PostController.cs",
-              "RelativeToolTip": "TranquiloSystem.API\\Controllers\\PostController.cs",
-              "ViewState": "AQIAADYAAABgy8zMzMwjwD8AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T19:45:49.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PostCommentReadDto.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Dtos\\PostCommentDto\\PostCommentReadDto.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Dtos\\PostCommentDto\\PostCommentReadDto.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Dtos\\PostCommentDto\\PostCommentReadDto.cs",
-              "RelativeToolTip": "TranquiloSystem.BLL\\Dtos\\PostCommentDto\\PostCommentReadDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T05:29:54.028Z",
+              "WhenOpened": "2024-09-22T23:01:26.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ProfileManagerTests.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\ProfileManagerTests.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.Test\\ProfileManagerTests.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\ProfileManagerTests.cs",
-              "RelativeToolTip": "TranquiloSystem.Test\\ProfileManagerTests.cs",
-              "ViewState": "AQIAAFwAAAAEAAAAAAAiwJgAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T00:00:28.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AccountControllerTests.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\AccountControllerTests.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.Test\\AccountControllerTests.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\AccountControllerTests.cs",
-              "RelativeToolTip": "TranquiloSystem.Test\\AccountControllerTests.cs",
-              "ViewState": "AQIAAEQAAADgaWZmZmYuwGsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T00:31:31.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PostCommentAddDto.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Dtos\\PostCommentDto\\PostCommentAddDto.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Dtos\\PostCommentDto\\PostCommentAddDto.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Dtos\\PostCommentDto\\PostCommentAddDto.cs",
-              "RelativeToolTip": "TranquiloSystem.BLL\\Dtos\\PostCommentDto\\PostCommentAddDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T05:10:20.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\AutoMapper\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\AutoMapper\\MappingProfile.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\AutoMapper\\MappingProfile.cs",
-              "RelativeToolTip": "TranquiloSystem.BLL\\AutoMapper\\MappingProfile.cs",
-              "ViewState": "AQIAABAAAADgZmZmZmYqwCUAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T19:46:52.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Program.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.API\\Program.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Program.cs",
-              "RelativeToolTip": "TranquiloSystem.API\\Program.cs",
-              "ViewState": "AQIAADoAAABAOzMzM7MSwEYAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T18:46:16.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProfileRepository.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\ProfileRepo\\ProfileRepository.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.DAL\\Repositories\\ProfileRepo\\ProfileRepository.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.DAL\\Repositories\\ProfileRepo\\ProfileRepository.cs",
-              "RelativeToolTip": "TranquiloSystem.DAL\\Repositories\\ProfileRepo\\ProfileRepository.cs",
-              "ViewState": "AQIAAAsAAAAAamZmZmYSwAwAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T19:47:10.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RoutineController.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\RoutineController.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.API\\Controllers\\RoutineController.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\RoutineController.cs",
-              "RelativeToolTip": "TranquiloSystem.API\\Controllers\\RoutineController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T19:47:10.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "GeneralResponseDto.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Dtos\\GeneralDto\\GeneralResponseDto.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Dtos\\GeneralDto\\GeneralResponseDto.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Dtos\\GeneralDto\\GeneralResponseDto.cs",
-              "RelativeToolTip": "TranquiloSystem.BLL\\Dtos\\GeneralDto\\GeneralResponseDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T20:14:38.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\appsettings.json",
               "RelativeDocumentMoniker": "TranquiloSystem.API\\appsettings.json",
               "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\appsettings.json",
               "RelativeToolTip": "TranquiloSystem.API\\appsettings.json",
-              "ViewState": "AQIAAAEAAADgMjMzMzMbwAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-21T20:00:59.096Z"
+              "WhenOpened": "2024-09-22T22:23:01.52Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "NotificationManager.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\NotificationManager\\NotificationManager.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\NotificationManager\\NotificationManager.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\NotificationManager\\NotificationManager.cs",
-              "RelativeToolTip": "TranquiloSystem.BLL\\Manager\\NotificationManager\\NotificationManager.cs",
-              "ViewState": "AQIAAAEAAAAUAgAAAAAmwC8AAAApAAAA",
+              "DocumentIndex": 0,
+              "Title": "RoutineManagerTests.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\RoutineTest\\RoutineManagerTests.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.Test\\RoutineTest\\RoutineManagerTests.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\RoutineTest\\RoutineManagerTests.cs",
+              "RelativeToolTip": "TranquiloSystem.Test\\RoutineTest\\RoutineManagerTests.cs",
+              "ViewState": "AQIAAFoAAAAAZWZmZmYuwGoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T18:40:24.547Z"
+              "WhenOpened": "2024-09-22T23:20:10.392Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "INotificationManager.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\NotificationManager\\INotificationManager.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\NotificationManager\\INotificationManager.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\NotificationManager\\INotificationManager.cs",
-              "RelativeToolTip": "TranquiloSystem.BLL\\Manager\\NotificationManager\\INotificationManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABLAAAA",
+              "DocumentIndex": 4,
+              "Title": "AccountManagerTests.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\AccountTest\\AccountManagerTests.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.Test\\AccountTest\\AccountManagerTests.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\AccountTest\\AccountManagerTests.cs",
+              "RelativeToolTip": "TranquiloSystem.Test\\AccountTest\\AccountManagerTests.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAIwHQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T18:40:23.367Z"
+              "WhenOpened": "2024-09-22T23:18:53.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountControllerTests.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\AccountTest\\AccountControllerTests.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.Test\\AccountTest\\AccountControllerTests.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\AccountTest\\AccountControllerTests.cs",
+              "RelativeToolTip": "TranquiloSystem.Test\\AccountTest\\AccountControllerTests.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAkwOYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T21:31:02.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TranquiloSystem.Test",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\TranquiloSystem.Test.csproj",
+              "RelativeDocumentMoniker": "TranquiloSystem.Test\\TranquiloSystem.Test.csproj",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.Test\\TranquiloSystem.Test.csproj",
+              "RelativeToolTip": "TranquiloSystem.Test\\TranquiloSystem.Test.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-23T00:05:12.439Z",
+              "EditorCaption": ""
             }
           ]
         }
@@ -341,67 +168,43 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "f412672a-4208-431e-b54d-95be195abfee",
+        "Id": "22ed1f39-f85a-486d-a6d1-c6a75a74ab31",
         "Display": 1,
-        "X": 137,
-        "Y": 122,
-        "Width": 1226,
-        "Height": 584,
+        "X": 134,
+        "Y": 453,
+        "Width": 1279,
+        "Height": 699,
         "WindowState": 0
       },
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IProfileManager.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\ProfileManager\\IProfileManager.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\ProfileManager\\IProfileManager.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\ProfileManager\\IProfileManager.cs",
-              "RelativeToolTip": "TranquiloSystem.BLL\\Manager\\ProfileManager\\IProfileManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T00:02:55.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "ProfileManager.cs",
               "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\ProfileManager\\ProfileManager.cs",
               "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\ProfileManager\\ProfileManager.cs",
               "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\ProfileManager\\ProfileManager.cs",
               "RelativeToolTip": "TranquiloSystem.BLL\\Manager\\ProfileManager\\ProfileManager.cs",
-              "ViewState": "AQIAAH0AAADA1szMzMwuwCEAAAAEAAAA",
+              "ViewState": "AQIAAJsAAAAAAAAAAADwv7QAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T23:03:28.351Z",
+              "WhenOpened": "2024-09-22T22:08:50.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\AppData\\Local\\SourceServer\\f133c424bb3f9866770e01a39dd1b051a926a6ac04778a0d7b52b9568bda0699\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\DELL\\AppData\\Local\\SourceServer\\f133c424bb3f9866770e01a39dd1b051a926a6ac04778a0d7b52b9568bda0699\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\AccountController.cs [Read Only]",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBcAAAACAAAA",
+              "DocumentIndex": 7,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "TranquiloSystem.API\\Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.API\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "TranquiloSystem.API\\Controllers\\ProfileController.cs",
+              "ViewState": "AQIAADcAAAAAKJmZmZnZv0sAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T23:13:33.137Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AccountManager.cs",
-              "DocumentMoniker": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\AccountManager\\AccountManager.cs",
-              "RelativeDocumentMoniker": "TranquiloSystem.BLL\\Manager\\AccountManager\\AccountManager.cs",
-              "ToolTip": "D:\\IEEE\\TranquiloSystem\\TranquiloSystem.BLL\\Manager\\AccountManager\\AccountManager.cs",
-              "RelativeToolTip": "TranquiloSystem.BLL\\Manager\\AccountManager\\AccountManager.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAADwv+UAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T19:47:10.671Z",
+              "WhenOpened": "2024-09-22T21:46:57.389Z",
               "EditorCaption": ""
             }
           ]
