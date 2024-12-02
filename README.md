@@ -200,6 +200,10 @@ In the `appsettings.json` file, the following configurations are used:
  
 ```json
 {
+
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=db10767.public.databaseasp.net; Database=db10767; User Id=db10767; Password=dG-3?5EpR+t2; Encrypt=False;"
+  },
   "Logging": {
     "LogLevel": {
       "Default": "Information",
@@ -207,9 +211,20 @@ In the `appsettings.json` file, the following configurations are used:
     }
   },
   "AllowedHosts": "*",
-  "ConnectionStrings": {
-    "DefaultConnection": " " //put your connection string for your databse here & run the command 'Update-Database' in Pckage Manager Console 
+  "Jwt": {
+    "Key": "y9XQ!@324fkpq34Vn04i5#W6$%fTgQwErTgBhYtNmQqPzXqFjKl09",
+    "Issuer": "https://localhost:7209/",
+    "Audience": "https://localhost:7209/"
   },
+
+  "SmtpSettings": {
+    "Host": "smtp.gmail.com",
+    "Port": 587,
+    "UserName": "moustafa.anafea@gmail.com",
+    "Password": "wfsv vksy wosp mfaq"
+  }
+
+
 
  
 }
