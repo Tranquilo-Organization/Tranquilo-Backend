@@ -1,6 +1,3 @@
-to try endpoints go to this link
-    http://venom.runasp.net/swagger/index.html
-
 ## Project Overview
 **Tranquilo** is a mobile application that aims to help users manage anxiety, with a specific focus on Generalized Anxiety Disorder (GAD). The app combines routines, activities, and a social platform to foster a supportive environment where users can post updates, comments, and interact with each other. The backend is built using **C# .NET** and connects with an AI system to generate personalized routines and advice based on user profiles.
 
